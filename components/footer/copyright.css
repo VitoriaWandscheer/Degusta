@@ -1,0 +1,13 @@
+footer section.copyright {
+    width: inherit;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #a8382d;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 3%;
+}
