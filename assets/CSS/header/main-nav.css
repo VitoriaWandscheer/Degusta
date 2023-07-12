@@ -1,0 +1,20 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 25px;
+}
