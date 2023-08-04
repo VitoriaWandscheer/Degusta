@@ -1,5 +1,6 @@
-@import url(header/main-header.css);
-@import url(header/main-nav.css);
+@import url(header/header.css);
+@import url(header/nav-bar.css);
+
 
 @import url(main/main-banner.css);
 @import url(main/sobre.css);
