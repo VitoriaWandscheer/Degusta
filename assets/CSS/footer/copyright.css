@@ -2,9 +2,15 @@ footer section.copyright {
     width: 100%;
     height: auto;
     text-align: center;
-    background-color: #E8DED5;
+    background-color: #C86715;
     font-size: 13px;
     font-weight: 700;
     color: #372218;
     padding: 10px;
+}
+
+@media screen and (max-width: 730px){
+    footer section.copyright {
+        background-color: #E8DED5;
+    }
 }
