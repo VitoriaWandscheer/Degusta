@@ -1,0 +1,10 @@
+@import url(header/main-header.css);
+@import url(header/main-nav.css);
+
+@import url(main/main-banner.css);
+@import url(main/sobre.css);
+@import url(main/pratos.css);
+@import url(main/restaurantes.css);
+
+@import url(footer/realizacao.css);
+@import url(footer/copyright.css);
