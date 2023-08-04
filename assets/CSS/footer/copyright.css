@@ -1,13 +1,10 @@
 footer section.copyright {
-    width: inherit;
+    width: 100%;
     height: auto;
-    padding: 10px;
     text-align: center;
-    background-color: #a8382d;
-    bottom: 0;
-    left: 0;
+    background-color: #E8DED5;
     font-size: 13px;
     font-weight: 700;
-    color: #fff;
-    margin-top: 3%;
+    color: #372218;
+    padding: 10px;
 }

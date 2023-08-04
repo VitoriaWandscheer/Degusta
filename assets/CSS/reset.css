@@ -7,3 +7,8 @@
     font: inherit;
     text-decoration: none;
 }
+
+h2.mobile {
+    font-size: 25px;
+    font-weight: bolder;
+}
