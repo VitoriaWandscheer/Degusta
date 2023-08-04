@@ -1,0 +1,51 @@
+.mobile-menu{
+    display: none;
+}
+#logo-prefeitura {
+    display: none;
+}
+.mobile-menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 730px){
+    header {
+        background-color: #E8DED5;
+    }
+    .nav-bar {
+        padding: 1.5rem 10vw;
+        align-items: center;
+    }
+    .nav-list {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .nav-link {
+        color:#372218;
+    }
+    .open {
+        display: block;
+    }
+    #logo-degusta img {
+        width: 8rem;
+    }
+    #logo-prefeitura {
+        display: block;
+    }
+}

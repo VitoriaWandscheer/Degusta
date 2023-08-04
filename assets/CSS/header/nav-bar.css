@@ -1,0 +1,20 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item {
+    margin: 0 46px;
+}
+.nav-link {
+    color: #E8DED5;
+}
