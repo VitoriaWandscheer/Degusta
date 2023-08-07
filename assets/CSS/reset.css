@@ -28,3 +28,19 @@ h2.mobile-light {
 h2.mobile-dark {
     color: var(--brown);
 }
+
+h3 {
+    color: var(--red);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p {
+    color: var(--beige);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
