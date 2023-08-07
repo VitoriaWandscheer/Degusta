@@ -8,9 +8,23 @@
     text-decoration: none;
 }
 
-h2.mobile {
-    color: #E8DED5;
+:root {
+    --red: #A8382D;
+    --beige: #E8DED5;
+    --orange: #C86715;
+    --brown: #372218;
+    --black: #1E1E1E;
+}
+
+h2 {
     font-size: 25px;
     font-weight: bolder;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+    margin-bottom: 20px;
+}
+h2.mobile-light {
+    color: var(--beige);
+}
+h2.mobile-dark {
+    color: var(--brown);
 }
