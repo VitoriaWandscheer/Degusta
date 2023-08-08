@@ -5,31 +5,6 @@
     box-sizing: border-box;
     font-size: 100%;
     font: inherit;
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
-}
-h2 {
-    font-size: 25px;
-    font-weight: bolder;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
-    margin-bottom: 20px;
-}
-h2.mobile_light {
-    color: var(--color-light);
-}
-h2.mobile_dark {
-    color: var(--color-medium);
-}
-h3 {
-    color: var(--color-second);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-p {
-    color: var(--color-light);
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }

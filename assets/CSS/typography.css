@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+    margin-bottom: 20px;
+}
+h2.mobile_light {
+    color: var(--color-light);
+}
+h2.mobile_dark {
+    color: var(--color-medium);
+}
+h3 {
+    color: var(--color-second);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+p {
+    color: var(--color-light);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

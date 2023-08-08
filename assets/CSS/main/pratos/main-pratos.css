@@ -1,8 +1,4 @@
 .pratos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
     padding: 20px;
     background-color: var(--color-dark);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
@@ -10,20 +6,3 @@
 /* .wrapper-pratos {
 
 } */
-.nome-prato {
-    width: 100%;
-}
-.wrap-precoLogo{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.wrap-preco {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 165px;
-    height: 52px;
-    background-color: var(--color-first);
-    border-radius: 6px;
-}
