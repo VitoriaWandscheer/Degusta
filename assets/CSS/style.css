@@ -1,12 +1,21 @@
+/* CUSTOM PROPERTIES */
+@import url(colors.css);
+
+/* HEADER */
 @import url(header/header.css);
 @import url(header/nav-bar.css);
 @import url(header/mobile-menu.css);
 
-
+/* MAIN */
+/* Main Sobre */
 @import url(main/main-banner.css);
 @import url(main/sobre.css);
-@import url(main/pratos.css);
+/* Main Pratos */
+@import url(main/pratos/main-pratos.css);
+@import url(main/pratos/card-prato.css);
+/* Main Restaurantes */
 @import url(main/restaurantes.css);
 
+/* FOOTER */
 @import url(footer/realizacao.css);
 @import url(footer/copyright.css);

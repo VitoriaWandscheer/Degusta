@@ -16,5 +16,5 @@
     margin: 0 46px;
 }
 .nav-link {
-    color: #E8DED5;
+    color: var(--color-light);
 }

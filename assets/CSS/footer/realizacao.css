@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--brown);
+    background-color: var(--color-medium);
     height: 300px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
 }
 .wrapper-realizadores {
-    background-color: #E8DED5;
+    background-color: var(--color-light);
     padding: 30px;
     width: fit-content;
     height: fit-content;
@@ -29,7 +29,7 @@
 @media screen and (max-width: 730px){
     .realizacao {
         height: 450px;
-        background-color: #C86715;
+        background-color: var(--color-first);
     }
     .wrapper-realizadores {
         width: 80%;

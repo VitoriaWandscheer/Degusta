@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    background-color: var(--beige);
+    background-color: var(--color-light);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
 }
 .wrapper-restaurantes {
@@ -23,8 +23,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 13px;
-    border: 2px solid var(--brown);
-    background: var(--beige);
+    border: 2px solid var(--color-medium);
+    background: var(--color-light);
     box-shadow: 0px 3px 8px 0px #000;
 }
 @media screen and (max-width: 730px) {
