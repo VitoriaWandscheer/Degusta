@@ -1,8 +1,9 @@
-.pratos {
+.main-pratos {
     padding: 20px;
     background-color: var(--color-dark);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
 }
-/* .wrapper-pratos {
-
-} */
+.wrapper-cards {
+    display: flex;
+    height: 250px;
+}

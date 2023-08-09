@@ -5,6 +5,7 @@
     background-color: var(--color-light);
     border-radius: 13px;
     box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.35);
+    margin-left: 43px;
 }
 .wrap-img {
     display: flex;
