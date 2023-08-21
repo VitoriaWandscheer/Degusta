@@ -16,5 +16,7 @@
     margin: 0 46px;
 }
 .nav-link {
-    color: var(--color-light);
+    font-family: "Nobel Black";
+    color: var(--color-medium);
+    font-weight: bold;
 }

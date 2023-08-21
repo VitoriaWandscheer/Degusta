@@ -1,7 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+@font-face {
+    font-family: "Damion Regular";
+    src: url('../tipografia/Damion-Regular.ttf');
+}
+@font-face {
+    font-family: "Nobel ExtraLight";
+    src: url('../tipografia/.31223.otf');
+}
+@font-face {
+    font-family: "Nobel Light";
+    src: url('../tipografia/.31225.otf');
+}
+@font-face {
+    font-family: "Nobel Book Regular";
+    src: url('../tipografia/.31227.otf');
+}
+@font-face {
+    font-family: "Nobel Regular";
+    src: url('../tipografia/.31229.otf');
+}
+@font-face {
+    font-family: "Nobel Bold";
+    src: url('../tipografia/.31231.otf');
+}
+@font-face {
+    font-family: "Nobel Black";
+    src: url('../tipografia/.31233.otf');
+}
+@font-face {
+    font-family: "Nobel ExtraLightCondensed";
+    src: url('../tipografia/.31235.otf');
+}
+@font-face {
+    font-family: "Nobel LightCondensed";
+    src: url('../tipografia/.31236.otf');
+}
+@font-face {
+    font-family: "Nobel BookCondensed";
+    src: url('../tipografia/.31237.otf');
+}
+@font-face {
+    font-family: "Nobel RegularCondensed";
+    src: url('../tipografia/.31238.otf');
+}
+@font-face {
+    font-family: "Nobel BoldCondensed";
+    src: url('../tipografia/.31239.otf');
+}
+@font-face {
+    font-family: "Nobel BlackCondensed";
+    src: url('../tipografia/.31240.otf');
+}
+
+body {
+    font-family: "Nobel Regular";
+}
 
 h2 {
     text-align: center;
+    font-family: "Damion Regular";
     font-size: 2rem;
     font-weight: bolder;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
@@ -15,6 +71,7 @@ h2.mobile_dark {
 }
 h3 {
     color: var(--color-second);
+    font-family: "Damion Regular";
     font-size: 2rem;
     font-style: normal;
     font-weight: bolder;
@@ -22,6 +79,7 @@ h3 {
 }
 p {
     color: var(--color-light);
+    font-family: "Nobel Regular";
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
