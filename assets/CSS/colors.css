@@ -1,7 +1,7 @@
 :root {
-    --color-first: #C86715;
-    --color-second: #A8382D;
-    --color-light: #E8DED5;
-    --color-medium: #372218;
-    --color-dark: #1E1E1E;
+    --color-first: rgba(163, 56, 45, 1);
+    --color-first-medium: rgba(163, 56, 45, 0.9);
+    --color-light: rgba(243, 237, 231, 1);
+    --color-dark: rgba(70, 44, 31, 1);
+    --color-dark-medium: rgba(70, 44, 31, 0.8);
 }

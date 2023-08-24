@@ -1,43 +1,41 @@
 .card-prato {
     display: flex;
-    width: 550px;
-    height: 210px;
-    background-color: var(--color-light);
+    width: 30rem;
+    height: 13rem;
     border-radius: 13px;
-    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.35);
     margin-left: 43px;
 }
 .wrap-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 11rem;
     border-radius: 13px;
 }
 .wrap-img img {
-    height: 160px;
+    width: 9rem;
     border-radius: 13px;
-    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .wrap-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 17rem;
 }
-.wrap-precoLogo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.card-prato p {
+    font-size: 1.2rem;
+    font-style: normal;
+    line-height: normal;
 }
-.wrap-preco {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
-    height: 52px;
-    background-color: var(--color-first);
-    border-radius: 6px;
+.card-prato p.nomeRestaurante {
+    font-family: "Nobel Regular";
+    color: var(--color-dark-medium);
+    margin: 0.3rem 0 1.4rem 0;
+}
+.card-prato p.preco {
+    font-family: "Nobel Bold";
+    color: var(--color-first);
 }
 .logo-prato {
     width: 45%;
