@@ -34,19 +34,18 @@ function translateSlide({position}){
     state.savedPosition = position
     slideList.style.transform = `translateX(${position}px)`
 }
-function getCenterPosition({index}){
+function getPosition({index}){
     const slideItem = slideItems[index]
     const slideWidth = slideItem.clientWidth
-    const windowWidth = document.body.clientWidth
-    const margin = (windowWidth - slideWidth) / 2
-    const position = margin - (index * slideWidth)
+    const position = - (index * slideWidth)
     return position
 }
 function setVisibleSlide({index, animate}){
     if(index === 0 || index === slideItems.length - 1){
         index = state.currentSlideIndex
     }
-    const position = getCenterPosition({index: index})
+    const position = getPosition({index: index})
+    console.log(position)
     state.currentSlideIndex = index
     slideList.style.transition = animate === true ? 'transform .5s' : 'none'
     activeControlButton({index: index})
