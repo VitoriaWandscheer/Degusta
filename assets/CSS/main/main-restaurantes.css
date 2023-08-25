@@ -1,4 +1,4 @@
-.restaurantes {
+.main-restaurantes {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@
     box-shadow: 0px 3px 8px 0px #000;
 }
 @media screen and (max-width: 730px) {
-    .restaurantes {
+    .main-restaurantes {
         padding: 15px 5px;
     }
     .wrapper-restaurantes {
