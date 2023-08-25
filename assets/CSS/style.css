@@ -11,12 +11,12 @@
 /* MAIN */
 /* Main Sobre */
 @import url(main/main-banner.css);
-@import url(main/sobre.css);
+@import url(main/main-sobre.css);
 /* Main Pratos */
 @import url(main/pratos/main-pratos.css);
 @import url(main/pratos/card-prato.css);
 /* Main Restaurantes */
-@import url(main/restaurantes.css);
+@import url(main/main-restaurantes.css);
 
 /* FOOTER */
 @import url(footer/realizacao.css);

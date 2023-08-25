@@ -1,12 +1,22 @@
 .main-pratos {
+    position: relative;
     padding: 3vw;
     background-color: var(--color-light);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
     overflow: hidden;
 }
-
+.decoration {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 223px;
+    height: 163px;
+    z-index: 1;
+}
 /* Carousel */
 .slide-wrapper {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: center;
     flex-direction: column;

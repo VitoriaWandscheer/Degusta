@@ -1,0 +1,17 @@
+.main-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color-first);
+}
+.main-sobre p {
+    text-align: center;
+    font-family: "Nobel Book";
+    font-size: 16px;
+    line-height: 160%;
+}
+.main-sobre h2 {
+    color: var(--color-light);
+}

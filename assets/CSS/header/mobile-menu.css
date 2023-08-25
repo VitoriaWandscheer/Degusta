@@ -37,7 +37,7 @@
         padding-top: 1.2rem;
     }
     .nav-link {
-        color:var(--color-medium);
+        color: var(--color-medium);
     }
     .open {
         display: block;
