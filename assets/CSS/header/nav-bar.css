@@ -1,7 +1,7 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 2vw;
 }
 .nav-list {
     display: flex;
@@ -16,7 +16,7 @@
     margin: 0 46px;
 }
 .nav-link {
-    font-family: "Nobel Black";
-    color: var(--color-medium);
-    font-weight: bold;
+    font-family: "Nobel Bold";
+    color: var(--color-dark);
+    font-size: 1rem;
 }
