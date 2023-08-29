@@ -1,10 +1,12 @@
 .main-sobre {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
     background-color: var(--color-first);
+
 }
 .main-sobre p {
     text-align: center;

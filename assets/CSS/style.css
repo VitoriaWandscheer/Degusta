@@ -17,7 +17,9 @@
 @import url(main/pratos/card-prato.css);
 /* Main Restaurantes */
 @import url(main/main-restaurantes.css);
+/* Main Realização */
+@import url(main/main-realizacao.css);
 
 /* FOOTER */
-@import url(footer/realizacao.css);
+@import url(footer/mapa-site);
 @import url(footer/copyright.css);

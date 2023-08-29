@@ -1,4 +1,5 @@
 .main-pratos {
+    height: 100vh;
     position: relative;
     padding: 3vw;
     background-color: var(--color-light);
