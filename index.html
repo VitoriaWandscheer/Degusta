@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Degusta Camboriú</title>
-    <link rel="stylesheet" href="assets/CSS/reset.css">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <script src="assets/scripts.js" defer></script>
+    <link rel="stylesheet" href="assets/estilos/reset.css">
+    <link rel="stylesheet" href="assets/estilos/style.css">
+    <script src="assets/scripts/scripts.js" defer></script>
 </head>
 <body>
     <header>
         <nav class="nav-bar">
             <div id="logo-prefeitura">
-                <img src="assets/img/logo-mobile-prefeitura.png" alt="Logo da Prefeitura de Camboriú">
+                <img src="assets/imagens/logo-mobile-prefeitura.png" alt="Logo da Prefeitura de Camboriú">
             </div>
             <div class="nav-list">
                 <ul>
@@ -21,7 +21,7 @@
                 </ul>
             </div>
             <div id="logo-degusta">
-                <img src="assets/img/logoDegusta.png" alt="Logo do Degusta">
+                <img src="assets/imagens/logoDegusta.png" alt="Logo do Degusta">
             </div>
             <div class="nav-list">
                 <ul>
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img src="assets/img/icon-menu.png" alt="Menu" class="icon"></button>
+                <button onclick="menuShow()"><img src="assets/imagens/icon-menu.png" alt="Menu" class="icon"></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -53,65 +53,77 @@
         </section>
         <section id="pratos" class="main-pratos">
             <div class="decoration">
-                <img src="assets/img/ervas.png" alt="">
+                <img src="assets/imagens/ervas.png" alt="">
             </div>
             <h2 >Pratos Participantes</h2>
             <section class="main-carousel">
                 <div class="slide-wrapper" data-slide="wrapper">
                     <div class="slide-list" data-slide="list">
                         <div class="slide-item wrapper-cards -first" data-slide="item" data-index="0">
-                            <div class="card-prato">
-                                <div class="wrap-img"><img src="assets/img/prato-teste.png" alt="Imagem do Prato"></div>
-                                <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                            <a href="pratos/sushi.html" class="link">
+                                <div class="card-prato">
+                                    <div class="wrap-img"><img src="assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
+                                    <div class="wrap-info">
+                                        <h3>Sushi</h3>
+                                        <p class="nomeRestaurante">Nome do Restaurante</p>
+                                        <p class="preco">R$ 00,00</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-prato">
-                                <div class="wrap-img"><img src="assets/img/prato-teste.png" alt="Imagem do Prato"></div>
-                                <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
-                                </div>
-                            </div>                       
+                            </a>
+                            <a href="#" class="link">
+                                <div class="card-prato">
+                                    <div class="wrap-img"><img src="assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
+                                    <div class="wrap-info">
+                                        <h3>Sushi</h3>
+                                        <p class="nomeRestaurante">Nome do Restaurante</p>
+                                        <p class="preco">R$ 00,00</p>
+                                    </div>
+                                </div>  
+                            </a>                     
                         </div>
                         <div class="slide-item wrapper-cards -second" data-slide="item" data-index="1">
-                            <div class="card-prato">
-                                <div class="wrap-img"><img src="assets/img/prato-teste.png" alt="Imagem do Prato"></div>
-                                <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                            <a href="#" class="link">
+                                <div class="card-prato">
+                                    <div class="wrap-img"><img src="assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
+                                    <div class="wrap-info">
+                                        <h3>Sushi</h3>
+                                        <p class="nomeRestaurante">Nome do Restaurante</p>
+                                        <p class="preco">R$ 00,00</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-prato">
-                                <div class="wrap-img"><img src="assets/img/prato-teste.png" alt="Imagem do Prato"></div>
-                                <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                            </a>
+                            <a href="#" class="link">
+                                <div class="card-prato">
+                                    <div class="wrap-img"><img src="assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
+                                    <div class="wrap-info">
+                                        <h3>Sushi</h3>
+                                        <p class="nomeRestaurante">Nome do Restaurante</p>
+                                        <p class="preco">R$ 00,00</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="slide-item wrapper-cards -third" data-slide="item" data-index="2">
-                            <div class="card-prato">
-                                <div class="wrap-img"><img src="assets/img/prato-teste.png" alt="Imagem do Prato"></div>
-                                <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                            <a href="#" class="link">
+                                <div class="card-prato">
+                                    <div class="wrap-img"><img src="assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
+                                    <div class="wrap-info">
+                                        <h3>Sushi</h3>
+                                        <p class="nomeRestaurante">Nome do Restaurante</p>
+                                        <p class="preco">R$ 00,00</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-prato">
-                                <div class="wrap-img"><img src="assets/img/prato-teste.png" alt="Imagem do Prato"></div>
-                                <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                            </a>
+                            <a href="#" class="link">
+                                <div class="card-prato">
+                                    <div class="wrap-img"><img src="assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
+                                    <div class="wrap-info">
+                                        <h3>Sushi</h3>
+                                        <p class="nomeRestaurante">Nome do Restaurante</p>
+                                        <p class="preco">R$ 00,00</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="wrap-navigation">
@@ -126,28 +138,28 @@
             <h2 class="mobile_dark">Restaurantes Participantes</h2>
             <div class="wrapper-restaurantes">
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 1" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 1" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 2" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 2" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 3" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 3" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 4" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 4" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 5" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 5" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 6" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 6" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 7" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 7" class="logo-restaurante">
                 </div>
                 <div class="wrap-restaurante">
-                    <img src="assets/img/logo-restaurante/buffaloBill.png" alt="restaurante 8" class="logo-restaurante">
+                    <img src="assets/imagens/logo-restaurante/buffaloBill.png" alt="restaurante 8" class="logo-restaurante">
                 </div>
             </div>
         </section>
@@ -156,14 +168,14 @@
             <h2 class="mobile_light">Realização</h2>
             <div class="wrapper-realizadores">
                 <ul>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
-                    <li class="realizador"><a href="#"><img src="assets/img/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
+                    <li class="realizador"><a href="#"><img src="assets/imagens/logoPrefeitura.png" alt="Logo "></a></li>
                 </ul>
             </div>
         </section>
@@ -176,6 +188,5 @@
             <p>&copy; 2023 - Departamento de Tecnologia e Inovação | Prefeitura Municipal de Camboriú<p>
         </section>
     </footer>
-
 </body>
 </html>
