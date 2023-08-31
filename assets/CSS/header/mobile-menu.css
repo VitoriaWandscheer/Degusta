@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 730px){
     header {
-        background-color: #E8DED5;
+        background-color: var(--color-light);
     }
     .nav-bar {
         padding: 1.5rem 10vw;
