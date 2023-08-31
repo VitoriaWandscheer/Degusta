@@ -38,6 +38,7 @@
     }
     .nav-link {
         color: var(--color-medium);
+        font-size: 2vw;
     }
     .open {
         display: block;

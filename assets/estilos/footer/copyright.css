@@ -18,11 +18,11 @@ footer section.copyright p {
 
 @media screen and (max-width: 730px){
     footer section.copyright {
-        height: 4vh;
+        height: 8vh;
         background-color: var(--color-light);
     }
     footer section.copyright p {
-        line-height: 2vh;
+        line-height: 8vh;
         text-align: center;
         color: var(--color-dark);
         font-family: "Nobel Regular";
