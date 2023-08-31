@@ -23,3 +23,9 @@
 /* FOOTER */
 @import url(footer/mapa-site);
 @import url(footer/copyright.css);
+
+/* RESTAURANTES */
+@import url(restaurantes/init.css);
+
+/* PRATOS */
+@import url(pratos/init.css);
