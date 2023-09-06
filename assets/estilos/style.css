@@ -13,8 +13,8 @@
 @import url(main/main-banner.css);
 @import url(main/main-sobre.css);
 /* Main Pratos */
-@import url(main/pratos/main-pratos.css);
-@import url(main/pratos/card-prato.css);
+@import url(main/main-pratos/main-pratos.css);
+@import url(main/main-pratos/card-prato.css);
 /* Main Restaurantes */
 @import url(main/main-restaurantes.css);
 /* Main Realização */
@@ -25,7 +25,8 @@
 @import url(footer/copyright.css);
 
 /* RESTAURANTES */
-@import url(restaurantes/init.css);
+@import url(restaurantes/restaurante-info.css);
+@import url(restaurantes/restaurante-sobre.css);
 
 /* PRATOS */
 @import url(pratos/init.css);
