@@ -1,0 +1,99 @@
+/* SECTION INFO */
+.prato-info {
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--color-first);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+/* TIPOGRAFIA */
+.prato-info h1{
+    width: 100%;
+    text-align: left;
+}
+.prato-info h2{
+    margin: 0px;
+    text-align: left;
+}
+.prato-info p.text{
+    font-family: 'Nobel';
+    font-size: 15px;
+}
+.prato-info p.subtitle{
+    width: 100%;
+    text-align: left;
+}
+
+/* NOME DO PRATO */
+.prato-info .wrap-nome{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 60%;
+    height: 10vh;
+    justify-content: center;
+}
+
+/* PREÇO DO PRATO */
+.prato-info .wrap-preco{
+    display: flex;
+    background-color: blueviolet;
+    width: 40%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.prato-info .wrap-preco .preco-moeda{
+    font-family: 'Nobel Bold';
+    font-size: 16px;
+    margin-right: 2px;
+}
+.prato-info .wrap-preco .preco-principal{
+    font-family: 'Nobel Bold';
+    font-style: italic;
+    font-size: 36px;
+}
+.prato-info .wrap-preco .preco-centavos{
+    font-family: 'Nobel Bold';
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+/* FOTO DO PRATO */
+.prato-info .wrap-foto{
+    background-color: blue;
+    width: 100%;
+    height: 25rem;
+}
+
+/* LOGO DO RESTAURANTE */
+.prato-info .wrap-logo{
+    background-color: yellow;
+    width: 40%;
+    height: auto;
+}
+
+/* INGREDIENTES DO PRATO */
+.prato-info .wrap-ingredientes{
+    background-color: green;
+    width: 60%;
+}
+
+/* SECTION HISTÓRIA */
+.prato-historia {
+    height: 100vh;
+    padding: 2rem;
+    background-color: var(--color-dark);
+}
+.prato-historia h2{
+    color: var(--color-light);
+}
+.prato-historia p{
+    color: var(--color-light);
+    font-size: 1rem;
+}
