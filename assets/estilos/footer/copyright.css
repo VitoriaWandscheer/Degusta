@@ -1,31 +1,19 @@
 footer section.copyright {
     width: 100%;
-    height: 5vh;
+    height: auto;
+    padding: 1vh;
     text-align: center;
     background-color: var(--color-light);
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--color-light);
-    padding: 1vh;
 }
 footer section.copyright p {
     line-height: 3vh;
-    text-align: center;
     color: var(--color-dark);
     font-family: "Nobel Regular";
     font-size: 1rem;
 }
 
 @media screen and (max-width: 730px){
-    footer section.copyright {
-        height: 8vh;
-        background-color: var(--color-light);
-    }
     footer section.copyright p {
-        line-height: 8vh;
-        text-align: center;
-        color: var(--color-dark);
-        font-family: "Nobel Regular";
-        font-size: 1rem;
+        font-size: 2.5vw;
     }
 }
