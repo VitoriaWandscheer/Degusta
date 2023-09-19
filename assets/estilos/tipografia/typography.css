@@ -14,15 +14,10 @@
     font-family: "Nobel Bold";
     src: url('31231.woff2') format('woff2');
 }
-/* @font-face {
-    font-family: "Nobel Black";
-    src: url('31233.woff2') format('woff2');
-} */
-/* @font-face {
-    font-family: "Nobel Light";
-    src: url('31225.woff2') format('woff2');
-} */
-
+a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
 .t-titulo-prato {
     font-family: "Nobel Bold";
     font-size: 24px;
@@ -81,9 +76,7 @@
 
 /* 
 
-body {
-    font-family: "Nobel Regular";
-}
+
 
 h2 {
     color: var(--color-dark);

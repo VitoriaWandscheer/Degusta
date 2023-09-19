@@ -4,6 +4,9 @@
 .mobile-menu-icon {
     display: none;
 }
+.header-decoration {
+    display: none;
+}
 
 @media screen and (max-width: 730px){
     header {
@@ -13,6 +16,28 @@
         padding: 1.5rem 10vw;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
+    }
+    .header-decoration.var-left {
+        display: flex;
+        position: absolute;
+        flex-shrink: 9;
+        transform: rotate(90deg);
+        left: -5px;
+    }
+    #erva-top-left {
+        width: 100px;
+    }
+    .header-decoration.var-right {
+        display: flex;
+        position: absolute;
+        flex-shrink: 9;
+        transform: rotate(-90deg);
+        right: -5px;
+        top: -45px;
+    }
+    #erva-top-right {
+        width: 100px;
     }
     .nav-list {
         display: none;
@@ -38,8 +63,9 @@
         padding-top: 1.2rem;
     }
     .nav-link {
+        font-family: "Nobel Regular";
         color: var(--color-medium);
-        font-size: 2vw;
+        font-size: 0.8rem;
     }
     .open {
         display: block;
@@ -51,5 +77,5 @@
         text-align: center;
         width: 128px;
     }
-    
+
 }
