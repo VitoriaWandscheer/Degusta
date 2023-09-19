@@ -1,9 +1,6 @@
 .mobile-menu{
     display: none;
 }
-#logo-prefeitura {
-    display: none;
-}
 .mobile-menu-icon {
     display: none;
 }
@@ -14,6 +11,7 @@
     }
     .nav-bar {
         padding: 1.5rem 10vw;
+        justify-content: center;
         align-items: center;
     }
     .nav-list {
@@ -21,6 +19,9 @@
     }
     .mobile-menu-icon {
         display: block;
+        position: absolute;
+        flex-shrink: 10;
+        right: 10vw;
     }
     .mobile-menu-icon button {
         background-color: transparent;
@@ -43,10 +44,12 @@
     .open {
         display: block;
     }
-    #logo-degusta img {
-        width: 8rem;
+    #logo-degusta .logoMobile {
+        font-family: "Nobel Book";
+        font-size: 16px;
+        color: var(--color-dark);
+        text-align: center;
+        width: 128px;
     }
-    #logo-prefeitura {
-        display: block;
-    }
+    
 }

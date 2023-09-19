@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--color-dark-medium);
-    padding: 2rem;
+    padding: 2rem 0;
+    overflow: hidden;
 }
 .main-sobre .t-titulo-secao {
     background-image: url(../../imagens/PapelRasgadoTitulo.svg);
@@ -15,12 +16,12 @@
     text-align: center;
     line-height: 80px;
     transform: rotate(-3deg);
-    margin-bottom: 2rem;
 }
 .main-sobre .t-texto {
-    max-width: 350px;
+    max-width: 90vw;
     color: var(--color-light);
     font-family: "Nobel Book";
     text-align: center;
     line-height: 130%;
+    padding: 2rem;
 }

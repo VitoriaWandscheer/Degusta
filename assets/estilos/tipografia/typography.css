@@ -47,6 +47,7 @@
 .t-titulo-secao {
     font-family: "Damion";
     font-size: 32px;
+    color: var(--color-dark-medium);
 }
 .t-card-prato-nome-rest {
     font-family: "Nobel Regular";
