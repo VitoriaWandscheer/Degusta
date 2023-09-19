@@ -43,6 +43,8 @@ a {
     font-family: "Damion";
     font-size: 32px;
     color: var(--color-dark-medium);
+    text-align: center;
+    margin-bottom: 20px;
 }
 .t-card-prato-nome-rest {
     font-family: "Nobel Regular";

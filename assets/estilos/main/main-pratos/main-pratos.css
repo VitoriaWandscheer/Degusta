@@ -14,6 +14,9 @@
     height: 163px;
     z-index: 1;
 }
+.t-titulo-secao {
+    margin-top: 20px;
+}
 /* Carousel */
 .slide-wrapper {
     position: relative;

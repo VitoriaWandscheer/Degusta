@@ -4,4 +4,5 @@
     --color-light: rgba(243, 237, 231, 1);
     --color-dark: rgba(70, 44, 31, 1);
     --color-dark-medium: rgba(70, 44, 31, 0.9);
+    --color-dark-50: rgba(70, 44, 31, 0.5);
 }

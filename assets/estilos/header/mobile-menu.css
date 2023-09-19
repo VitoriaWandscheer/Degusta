@@ -10,13 +10,18 @@
 
 @media screen and (max-width: 730px){
     header {
+        width: 100vw;
+        overflow: hidden;
         background-color: var(--color-light);
     }
     .nav-bar {
+        width: 100vw;
         padding: 1.5rem 10vw;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
+    }
+    .wrap-decoration {
+        width: 100vw;
     }
     .header-decoration.var-left {
         display: flex;
@@ -31,7 +36,7 @@
     .header-decoration.var-right {
         display: flex;
         position: absolute;
-        flex-shrink: 9;
+        flex-shrink: 8;
         transform: rotate(-90deg);
         right: -5px;
         top: -45px;

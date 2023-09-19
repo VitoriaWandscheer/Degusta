@@ -18,17 +18,27 @@
 }
 .wrap-restaurante {
     display: flex;
-    width: 180px;
-    height: 143px;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    width: 385px;
+    height: 173px;
     border-radius: 13px;
-    border: 2px solid var(--color-medium);
+    border: 2px solid var(--color-dark-50);
     background: var(--color-light);
-    box-shadow: 0px 3px 8px 0px #000;
 }
-.link-restaurant {
-    margin: 0 20px 32px;
+.wrap-logo-restaurante {
+    display: flex;
+    width: 166px;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-info-restaurante {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 172px;
+    height: 115px;
+
 }
 @media screen and (max-width: 730px) {
     .main-restaurantes {
