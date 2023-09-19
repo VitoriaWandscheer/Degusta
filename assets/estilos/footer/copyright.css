@@ -3,11 +3,11 @@ footer section.copyright {
     height: auto;
     padding: 1vh;
     text-align: center;
-    background-color: var(--color-light);
+    background-color: var(--color-dark);
 }
 footer section.copyright p {
     line-height: 3vh;
-    color: var(--color-dark);
+    color: var(--color-light);
     font-family: "Nobel Regular";
     font-size: 1rem;
 }

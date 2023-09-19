@@ -14,6 +14,7 @@
     justify-content: center;
     width: 11rem;
     border-radius: 13px;
+    margin-right: 1vw;
 }
 .wrap-img img {
     width: 9rem;
@@ -24,19 +25,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 17rem;
+    width: 50vw;
+    max-width: 17rem;
 }
-.card-prato p {
+.card-prato .t-titulo-prato {
     font-size: 1.2rem;
-    font-style: normal;
-    line-height: normal;
 }
-.card-prato p.nomeRestaurante {
-    font-family: "Nobel Regular";
+.card-prato .t-card-prato-nome-rest {
     color: var(--color-dark-medium);
     margin: 0.3rem 0 1.4rem 0;
 }
-.card-prato p.preco {
+.card-prato .t-card-prato-preco {
     font-family: "Nobel Bold";
     color: var(--color-first);
 }

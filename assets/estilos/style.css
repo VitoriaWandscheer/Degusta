@@ -3,6 +3,9 @@
 @import url(tipografia/typography.css);
 @import url(section.css);
 
+/* COMPONENTES */
+@import url(components/faixa-panela.css);
+
 /* HEADER */
 @import url(header/header.css);
 @import url(header/nav-bar.css);

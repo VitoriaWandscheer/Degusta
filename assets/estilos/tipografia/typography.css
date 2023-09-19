@@ -1,17 +1,9 @@
 @font-face {
-    font-family: "Damion Regular";
+    font-family: "Damion";
     src: url('Damion-Regular.ttf');
 }
 @font-face {
-    font-family: "Nobel ExtraLight";
-    src: url('31223.woff2') format('woff2');
-}
-@font-face {
-    font-family: "Nobel Light";
-    src: url('31225.woff2') format('woff2');
-}
-@font-face {
-    font-family: "Nobel Book Regular";
+    font-family: "Nobel Book";
     src: url('31227.woff2') format('woff2');
 }
 @font-face {
@@ -22,34 +14,71 @@
     font-family: "Nobel Bold";
     src: url('31231.woff2') format('woff2');
 }
-@font-face {
+/* @font-face {
     font-family: "Nobel Black";
     src: url('31233.woff2') format('woff2');
+} */
+/* @font-face {
+    font-family: "Nobel Light";
+    src: url('31225.woff2') format('woff2');
+} */
+
+.t-titulo-prato {
+    font-family: "Nobel Bold";
+    font-size: 24px;
 }
-@font-face {
-    font-family: "Nobel ExtraLightCondensed";
-    src: url('31235.woff2') format('woff2');
+.t-subtitulo-prato {
+    font-family: "Damion";
+    font-size: 24px;
 }
-@font-face {
-    font-family: "Nobel LightCondensed";
-    src: url('31236.woff2') format('woff2');
+.t-texto {
+    font-family: "Nobel Regular";
+    font-style: italic;
+    font-size: 16px;
 }
-@font-face {
-    font-family: "Nobel BookCondensed";
-    src: url('31237.woff2') format('woff2');
+.t-text-button {
+    font-family: "Nobel Book";
+    font-size: 16px;
 }
-@font-face {
-    font-family: "Nobel RegularCondensed";
-    src: url('31238.woff2') format('woff2');
+.t-observacao {
+    font-family: "Damion";
+    font-size: 16px;
 }
-@font-face {
-    font-family: "Nobel BoldCondensed";
-    src: url('31239.woff2') format('woff2');
+.t-titulo-secao {
+    font-family: "Damion";
+    font-size: 32px;
 }
-@font-face {
-    font-family: "Nobel BlackCondensed";
-    src: url('31240.woff2') format('woff2');
+.t-card-prato-nome-rest {
+    font-family: "Nobel Regular";
+    font-size: 14px;
 }
+.t-card-prato-preco {
+    font-family: "Nobel Bold";
+    font-size: 14px;
+}
+.t-card-rest-nome-restaurante {
+    font-family: "Nobel Bold";
+    font-size: 22px;
+}
+.t-info {
+    font-family: "Nobel Regular";
+    font-size: 16px;
+}
+.t-card-rest-prato-participante {
+    font-family: "Damion";
+    font-size: 20px;
+}
+.t-card-rest-nome-prato {
+    font-family: "Nobel Bold";
+    font-size: 20px;
+}
+.t-realizacao, .t.apoio {
+    font-family: "Nobel Regular";
+    font-size: 12px;
+    color: var(--color-dark);
+}
+
+/* 
 
 body {
     font-family: "Nobel Regular";
@@ -66,9 +95,6 @@ h2 {
     margin-bottom: 20px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
 }
-h2.mobile_dark {
-    color: var(--color-medium);
-}
 h3 {
     color: var(--color-dark);
     font-family: "Nobel";
@@ -84,4 +110,4 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+} */

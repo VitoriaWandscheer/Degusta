@@ -1,19 +1,26 @@
 .main-sobre {
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    background-color: var(--color-dark-medium);
     padding: 2rem;
-    background-color: var(--color-first);
-
 }
-.main-sobre p {
+.main-sobre .t-titulo-secao {
+    background-image: url(../../imagens/PapelRasgadoTitulo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 360px;
+    height: 80px;
+    color: var(--color-first);
     text-align: center;
-    font-family: "Nobel Book";
-    font-size: 16px;
-    line-height: 160%;
+    line-height: 80px;
+    transform: rotate(-3deg);
+    margin-bottom: 2rem;
 }
-.main-sobre h2 {
+.main-sobre .t-texto {
+    max-width: 350px;
     color: var(--color-light);
+    font-family: "Nobel Book";
+    text-align: center;
+    line-height: 130%;
 }
