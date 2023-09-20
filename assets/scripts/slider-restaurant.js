@@ -1,27 +1,14 @@
-
-/** MENU MOBILE */
-function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu')
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "../assets/imagens/icon-menu.svg"
-    } else {
-        menuMobile.classList.add('open')
-        document.querySelector('.icon').src = "../assets/imagens/icon-menu-close.svg"
-    }
-}
-
-/** SLIDER: Pratos */
+/** SLIDER: Restaurant */
 'use strict'
 
-const slideWrapper = document.querySelector('[data-slide="wrapper"]')
-const slideList = document.querySelector('[data-slide="list"]')
-const navPreviousButton = document.querySelector('[data-slide="nav-previous-button"]')
-const navNextButton = document.querySelector('[data-slide="nav-next-button"]')
-const slideControlsWrapper = document.querySelector('[data-slide="controls-wrapper"]')
-let slideItems = document.querySelectorAll('[data-slide="item"]')
-let controlButtons
-let slideInterval
+const slideWrapperRestaurant = document.querySelector('[data-slide="wrapper-restaurant"]')
+const slideListRestaurant = document.querySelector('[data-slide="list-restaurant"]')
+const restaurantNavPreviousButton = document.querySelector('[data-slide="restaurant-nav-previous-button"]')
+const restaurantNavNextButton = document.querySelector('[data-slide="restaurant-nav-next-button"]')
+const restaurantSlideControlsWrapper = document.querySelector('[data-slide="restaurant-controls-wrapper"]')
+let restaurantSlideItems = document.querySelectorAll('[data-slide="restaurant-item"]')
+let controlButtonsRestaurant
+let slideIntervalRestaurant
 
 const state = {
     startPoint: 0,
@@ -35,22 +22,21 @@ const state = {
 
 function translateSlide({position}){
     state.savedPosition = position
-    slideList.style.transform = `translateX(${position}px)`
+    slideListRestaurant.style.transform = `translateX(${position}px)`
 }
 function getPosition({index}){
-    const slideItem = slideItems[index]
+    const slideItem = restaurantSlideItems[index]
     const slideWidth = slideItem.clientWidth
     const position = - (index * slideWidth)
     return position
 }
 function setVisibleSlide({index, animate}){
-    if(index === 0 || index === slideItems.length - 1){
+    if(index === 0 || index === restaurantSlideItems.length - 1){
         index = state.currentSlideIndex
     }
     const position = getPosition({index: index})
-    console.log(position)
     state.currentSlideIndex = index
-    slideList.style.transition = animate === true ? 'transform .5s' : 'none'
+    slideListRestaurant.style.transition = animate === true ? 'transform .5s' : 'none'
     activeControlButton({index: index})
     translateSlide({position: position})
 }
@@ -62,18 +48,18 @@ function previousSlide(){
 }
 
 function createControlButtons(){
-    slideItems.forEach(function(){
+    restaurantSlideItems.forEach(function(){
         const controlButton = document.createElement('button')
-        controlButton.classList.add('slide-control-button')
+        controlButton.classList.add('restaurant-slide-control-button')
         controlButton.setAttribute('data-slide', 'control-button')
-        slideControlsWrapper.append(controlButton)
+        restaurantSlideControlsWrapper.append(controlButton)
     })
 }
 function activeControlButton({index}) {
-    const slideItem = slideItems[index]
+    const slideItem = restaurantSlideItems[index]
     const dataIndex = Number(slideItem.dataset.index)
-    const controlButton = controlButtons[dataIndex]
-    controlButtons.forEach(function(controlButtonItem){
+    const controlButton = controlButtonsRestaurant[dataIndex]
+    controlButtonsRestaurant.forEach(function(controlButtonItem){
         controlButtonItem.classList.remove('active')
     })
     if(controlButton) {
@@ -82,28 +68,28 @@ function activeControlButton({index}) {
 }
 
 function createSlideClones() {
-    const firstSlide = slideItems[0].cloneNode(true)
+    const firstSlide = restaurantSlideItems[0].cloneNode(true)
     firstSlide.classList.add('slide-cloned')
-    firstSlide.dataset.index = slideItems.length
+    firstSlide.dataset.index = restaurantSlideItems.length
 
-    const secondSlide = slideItems[1].cloneNode(true)
+    const secondSlide = restaurantSlideItems[1].cloneNode(true)
     secondSlide.classList.add('slide-cloned')
-    secondSlide.dataset.index = slideItems.length + 1
+    secondSlide.dataset.index = restaurantSlideItems.length + 1
 
-    const lastSlide = slideItems[slideItems.length - 1].cloneNode(true)
+    const lastSlide = restaurantSlideItems[restaurantSlideItems.length - 1].cloneNode(true)
     lastSlide.classList.add('slide-cloned')
     lastSlide.dataset.index = -1
 
-    const penultimateSlide = slideItems[slideItems.length - 2 ].cloneNode(true)
+    const penultimateSlide = restaurantSlideItems[restaurantSlideItems.length - 2 ].cloneNode(true)
     penultimateSlide.classList.add('slide-cloned')
     penultimateSlide.dataset.index = -2
 
-    slideList.append(firstSlide)
-    slideList.append(secondSlide)
-    slideList.prepend(lastSlide)
-    slideList.prepend(penultimateSlide)
+    slideListRestaurant.append(firstSlide)
+    slideListRestaurant.append(secondSlide)
+    slideListRestaurant.prepend(lastSlide)
+    slideListRestaurant.prepend(penultimateSlide)
 
-    slideItems = document.querySelectorAll('[data-slide="item"]')
+    restaurantSlideItems = document.querySelectorAll('[data-slide="restaurant-item"]')
 }
 
 function onMouseDown(event, index) {
@@ -111,7 +97,7 @@ function onMouseDown(event, index) {
     state.startPoint = event.clientX
     state.currentPoint = event.clientX - state.savedPosition
     state.currentSlideIndex = index
-    slideList.style.transition = 'none'
+    slideListRestaurant.style.transition = 'none'
     slideItem.addEventListener('mousemove', onMouseMove)
 }
 function onMouseMove(event) {
@@ -154,28 +140,28 @@ function onControlButtonClick(index) {
 }
 
 function onSlideListTransitionEnd() {
-    if(state.currentSlideIndex === slideItems.length - 2){
+    if(state.currentSlideIndex === restaurantSlideItems.length - 2){
         setVisibleSlide({index: 2, animate: 'none'})
     }
     if(state.currentSlideIndex === 1 ){
-        setVisibleSlide({index: slideItems.length - 3, animate: 'none'})
+        setVisibleSlide({index: restaurantSlideItems.length - 3, animate: 'none'})
     }
 }
 function setAutoPlay() {
     if (state.autoPlay) {
-        slideInterval = setInterval(function() {
+        slideIntervalRestaurant = setInterval(function() {
             setVisibleSlide({index: state.currentSlideIndex + 1, animate: true})
         }, state.timeInterval)
     }
 }
 
 function setListeners(){
-    controlButtons = document.querySelectorAll('[data-slide="control-button"]')
+    controlButtonsRestaurant = document.querySelectorAll('[data-slide="control-button"]')
     
     /**
      * Ao clicar em um ControlButton chama a função onControlButtonClick.
      */
-    controlButtons.forEach(function(controlButton, index) {
+    controlButtonsRestaurant.forEach(function(controlButton, index) {
         controlButton.addEventListener('click', function(event) {
             onControlButtonClick(index)
         })
@@ -184,7 +170,7 @@ function setListeners(){
     /**
      * Ao arrastar um slide, tanto com o Mouse quanto com o Touch, chama a função correspondente ao comando.
      */
-    slideItems.forEach(function(slideItem, index) {
+    restaurantSlideItems.forEach(function(slideItem, index) {
         slideItem.addEventListener('dragstart', function(event) {
             event.preventDefault()
         })
@@ -202,17 +188,17 @@ function setListeners(){
     /**
      * Ao clicar em um navButton chama a função correspondente ao botão (navNextButton/navPreviousButton).
      */
-    navNextButton.addEventListener('click', nextSlide)
-    navPreviousButton.addEventListener('click', previousSlide)
+    restaurantNavNextButton.addEventListener('click', nextSlide)
+    restaurantNavPreviousButton.addEventListener('click', previousSlide)
 
     /**
      * Responsável pelas transições.
      */
-    slideList.addEventListener('transitionend', onSlideListTransitionEnd)
-    slideWrapper.addEventListener('mouseenter', function() {
-        clearInterval(slideInterval)
+    slideListRestaurant.addEventListener('transitionend', onSlideListTransitionEnd)
+    slideWrapperRestaurant.addEventListener('mouseenter', function() {
+        clearInterval(slideIntervalRestaurant)
     })
-    slideWrapper.addEventListener('mouseleave', function(){ 
+    slideWrapperRestaurant.addEventListener('mouseleave', function(){ 
         setAutoPlay()
     })
 }
@@ -232,19 +218,3 @@ initSlider({
     startAtIndex: 0,
     timeInterval: 3000
 })
-
-/** Animação da Página ao Cliclar em um .nav-link*/
-document.addEventListener('DOMContentLoaded', function() {
-    const smoothScrollLinks = document.querySelectorAll('.nav-link');
-    
-    smoothScrollLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-
-            const target = document.querySelector(link.getAttribute('href'));
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-});

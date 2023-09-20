@@ -1,7 +1,6 @@
 /* CUSTOM PROPERTIES */
 @import url(colors.css);
 @import url(tipografia/typography.css);
-@import url(section.css);
 
 /* COMPONENTES */
 @import url(componets/button-saiba-mais.css);
@@ -22,12 +21,12 @@
 @import url(main/main-pratos/main-pratos.css);
 @import url(main/main-pratos/card-prato.css);
 /* Main Restaurantes */
-@import url(main/main-restaurantes.css);
+@import url(main/main-restaurantes/main-restaurantes.css);
+@import url(main/main-restaurantes/card-restaurante.css);
 /* Main Realização */
 @import url(main/main-realizacao.css);
 
 /* FOOTER */
-@import url(footer/mapa-site);
 @import url(footer/copyright.css);
 
 /* RESTAURANTES */
