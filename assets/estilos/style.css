@@ -3,8 +3,8 @@
 @import url(tipografia/typography.css);
 @import url(section.css);
 
-/* COMPONENTES */
-@import url(components/faixa-panela.css);
+/* CSS das TAGS */
+@import url(main/main.css);
 
 /* HEADER */
 @import url(header/header.css);

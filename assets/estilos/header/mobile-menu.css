@@ -23,26 +23,19 @@
     .wrap-decoration {
         width: 100vw;
     }
-    .header-decoration.var-left {
+    .header-decoration {
         display: flex;
         position: absolute;
-        flex-shrink: 9;
-        transform: rotate(90deg);
-        left: -5px;
+        height: inherit;
+        flex-shrink: 100;
+        top: 0;
     }
-    #erva-top-left {
-        width: 100px;
+    .header-decoration.var-left {
+        top: 20px;
+        left: 0;
     }
     .header-decoration.var-right {
-        display: flex;
-        position: absolute;
-        flex-shrink: 8;
-        transform: rotate(-90deg);
-        right: -5px;
-        top: -45px;
-    }
-    #erva-top-right {
-        width: 100px;
+        right: 0;
     }
     .nav-list {
         display: none;
