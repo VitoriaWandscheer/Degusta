@@ -57,9 +57,10 @@ a {
 .t-card-rest-nome-restaurante {
     font-family: "Nobel Bold";
     font-size: 22px;
+    color: var(--color-dark);
 }
-.t-info {
-    font-family: "Nobel Regular";
+.t-button-saiba-mais, .t-detail {
+    font-family: "Nobel Book";
     font-size: 16px;
 }
 .t-card-rest-prato-participante {
@@ -69,6 +70,7 @@ a {
 .t-card-rest-nome-prato {
     font-family: "Nobel Bold";
     font-size: 20px;
+    line-height: 113.5%;
 }
 .t-realizacao, .t.apoio {
     font-family: "Nobel Regular";

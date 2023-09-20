@@ -3,6 +3,9 @@
 @import url(tipografia/typography.css);
 @import url(section.css);
 
+/* COMPONENTES */
+@import url(componets/button-saiba-mais.css);
+
 /* CSS das TAGS */
 @import url(main/main.css);
 

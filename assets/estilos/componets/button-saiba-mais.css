@@ -1,0 +1,7 @@
+button.saiba-mais {
+    background-color: var(--color-first-medium);
+    width: 103px;
+    height: 29px;
+    border-radius: 5px;
+    color: var(--color-light);
+}
