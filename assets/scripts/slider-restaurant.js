@@ -43,7 +43,7 @@ function restaurantSetVisibleSlide({indexRestaurant, animateRestaurant}){
 function restaurantNextSlide(){
     restaurantSetVisibleSlide({indexRestaurant: restaurantState.currentSlideIndex + 1, animateRestaurant: true})
 }
-function previousSlide(){
+function restaurantPreviousSlide(){
     restaurantSetVisibleSlide({indexRestaurant: restaurantState.currentSlideIndex - 1, animateRestaurant: true})
 }
 
@@ -112,7 +112,7 @@ function onRestaurantMouseUp(event) {
     if (restaurantState.movement < -pointToMoveRestaurant) {
         restaurantNextSlide()
     } else if (restaurantState.movement > pointToMoveRestaurant) {
-        previousSlide()
+        restaurantPreviousSlide()
     } else {
         restaurantSetVisibleSlide({indexRestaurant: restaurantState.currentSlideIndex, animate: true})
     }
@@ -189,7 +189,7 @@ function restaurantSetListeners(){
      * Ao clicar em um navButton chama a função correspondente ao botão (navNextButton/navPreviousButton).
      */
     restaurantNavNextButton.addEventListener('click', restaurantNextSlide)
-    restaurantNavPreviousButton.addEventListener('click', previousSlide)
+    restaurantNavPreviousButton.addEventListener('click', restaurantPreviousSlide)
 
     /**
      * Responsável pelas transições.
