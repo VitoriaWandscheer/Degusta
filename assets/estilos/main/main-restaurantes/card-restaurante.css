@@ -1,29 +1,29 @@
 .card-restaurante {
     display: flex;
-    width: 390px;
-    height: 173px;
+    width: 380px;
+    height: 165px;
     border-radius: 13px;
     border: 2px solid var(--color-dark-50);
     background: var(--color-light);
 }
 .wrap-logo-restaurante {
     display: flex;
-    width: 166px;
-    height: 172px;
+    width: 160px;
+    height: 164px;
     align-items: center;
     justify-content: center;
 }
 .wrap-logo-restaurante .logo-restaurante {
-    width: 115px;
+    width: 110px;
 }
 .wrap-info-restaurante {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 204px;
-    height: 172px;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    height: 164px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .wrap-info-restaurante .t-texto{
     color: var(--color-dark-medium);
