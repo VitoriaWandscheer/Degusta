@@ -103,7 +103,7 @@ function onRestaurantMouseDown(event, indexRestaurant) {
 function onRestaurantMouseMove(event) {
     restaurantState.movement = event.clientX - restaurantState.startPoint
     const positionRestaurant = event.clientX - restaurantState.currentPoint
-    restaurantTranslateSlide({ position: positionRestaurant })
+    restaurantTranslateSlide({positionRestaurant})
     restaurantState.savedPosition = positionRestaurant
 }
 function onRestaurantMouseUp(event) {
@@ -114,7 +114,7 @@ function onRestaurantMouseUp(event) {
     } else if (restaurantState.movement > pointToMoveRestaurant) {
         restaurantPreviousSlide()
     } else {
-        restaurantSetVisibleSlide({indexRestaurant: restaurantState.currentSlideIndex, animate: true})
+        restaurantSetVisibleSlide({indexRestaurant: restaurantState.currentSlideIndex, animateRestaurant: true})
     }
     slideItemRestaurant.removeEventListener('mousemove', onRestaurantMouseMove)
 }
