@@ -1,22 +1,14 @@
 .main-realizacao {
-    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
-    background-color: var(--color-medium);
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+    background-color: var(--color-dark-medium);
 }
-.main-realizacao .wrapper-all {
-    background-color: var(--color-light);
-    padding: 30px;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 13px;
-    box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.25);
+.main-realizacao .wrap-realizacao-apoio {
+    background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
+    width: 100vw;
+    border-radius: 13px 13px 0 0;
+
 }
-.main-realizacao .wrapper-all ul {
+.main-realizacao .wrap-realizacao-apoio ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -27,7 +19,7 @@
     margin-bottom: 3px;
 }
 
-@media screen and (max-width: 730px){
+/* @media screen and (max-width: 730px){
     .realizacao {
         height: 450px;
         background-color: var(--color-first);
@@ -36,4 +28,4 @@
         width: 80%;
         padding: 15px;
     }
-}
+} */

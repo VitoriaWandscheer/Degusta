@@ -58,13 +58,13 @@
     height: 2rem;
 }
 .slide-nav-previous {
-    background-image: url(../../../imagens/icons/arrowRight.svg);
+    background-image: url(../../../imagens/icons-navigation/arrowRight.svg);
 }
 .slide-nav-previous:hover {
     transform: scale(1.2);
 }
 .slide-nav-next {
-    background-image: url(../../../imagens/icons/arrowLeft.svg);
+    background-image: url(../../../imagens/icons-navigation/arrowLeft.svg);
 }
 .slide-nav-next:hover {
     transform: scale(1.2);
@@ -76,7 +76,7 @@
 }
 .slide-control-button {
     cursor: pointer;
-    background-image: url(../../../imagens/icons/circle.svg);
+    background-image: url(../../../imagens/icons-navigation/circle.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@
     margin: 0px 0.3rem;
 }
 .slide-control-button.active {
-    background-image: url(../../../imagens/icons/active-circle.svg);
+    background-image: url(../../../imagens/icons-navigation/active-circle.svg);
 }
 
 @media screen and (max-width: 730px) {
