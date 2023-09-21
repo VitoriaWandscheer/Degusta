@@ -1,7 +1,7 @@
 .main-restaurantes {
     min-height: 100vh;
     position: relative;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: var(--color-light);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
 }
@@ -20,13 +20,14 @@
 }
 .restaurant-slide-item {
     flex-shrink: 0;
-    padding: 0 2.5vw;
-    width: 30rem;
-    max-width: 95vw;
+    /* padding: 0 2.5vw; */
+    /* width: 30rem;
+    max-width: 95vw; */
 }
 .wrapper-restaurant-cards {
     display: flex;
     flex-direction: column;
+
 }
 .wrap-restaurant-navigation {
     display: flex;
@@ -73,6 +74,10 @@
 }
 
 @media screen and (max-width: 730px) {
+    .wrapper-restaurantes {
+        width: 100%;
+
+    }
     .wrap-restaurant-navigation {
         justify-content: space-evenly;
     }

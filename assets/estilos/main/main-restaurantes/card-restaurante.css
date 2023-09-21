@@ -1,7 +1,7 @@
 .card-restaurante {
     display: flex;
-    width: 380px;
-    height: 165px;
+    width: 360px;
+    height: 160px;
     border-radius: 13px;
     border: 2px solid var(--color-dark-50);
     background: var(--color-light);
@@ -9,7 +9,7 @@
 .wrap-logo-restaurante {
     display: flex;
     width: 160px;
-    height: 164px;
+    height: 159px;
     align-items: center;
     justify-content: center;
 }
@@ -20,19 +20,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 204px;
-    height: 164px;
+    width: 170px;
+    height: 159px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 .wrap-info-restaurante .t-texto{
     color: var(--color-dark-medium);
-}
-@media screen and (max-width: 730px) {
-    .main-restaurantes {
-        padding: 15px 5px;
-    }
-    .wrapper-restaurantes {
-        width: 90%;
-    }
 }
