@@ -5,6 +5,7 @@
     border-radius: 13px;
     border: 2px solid var(--color-dark-50);
     background: var(--color-light);
+    margin: 0 10px 26px 10px;
 }
 .wrap-logo-restaurante {
     display: flex;
