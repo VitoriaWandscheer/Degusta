@@ -3,7 +3,7 @@
     position: relative;
     padding: 1.5rem 0;
     background-image: url(../../../imagens/background/bkg-mobile-textura-papel.svg);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
 }
 /* Carousel */
 .wrapper-restaurantes {

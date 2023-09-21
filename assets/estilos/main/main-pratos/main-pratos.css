@@ -3,7 +3,7 @@
     position: relative;
     padding: 3vw;
     background-color: var(--color-light);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30) inset;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
 }
 .section-decoration {
     display: flex;
