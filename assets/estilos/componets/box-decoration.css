@@ -1,0 +1,7 @@
+.box-decoration {
+    background-color: var(--color-dark-medium);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

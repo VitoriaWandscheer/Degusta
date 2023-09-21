@@ -4,6 +4,7 @@
 
 /* COMPONENTES */
 @import url(componets/button-saiba-mais.css);
+@import url(componets/box-decoration.css);
 
 /* CSS das TAGS */
 @import url(main/main.css);
