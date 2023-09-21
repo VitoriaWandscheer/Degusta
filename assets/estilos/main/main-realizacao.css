@@ -1,12 +1,34 @@
 .main-realizacao {
     display: flex;
+    flex-direction: column;
     background-color: var(--color-dark-medium);
+    width: 100vw;
+}
+.main-realizacao .wrap-ctt-degusta {
+    display: flex;
+    width: inherit;
+    justify-content: space-evenly;
+    padding: 45px 0;
+}
+.main-realizacao .wrap-ctt-degusta .logo-degusta-footer {
+    width: 200px;
+}
+.main-realizacao .wrap-ctt-degusta .wrap-instagram {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    justify-content: center;
+}
+.main-realizacao .wrap-ctt-degusta .wrap-instagram .qr-code {
+    width: fit-content;
+    margin-bottom: 10px;
+}
+.main-realizacao .wrap-ctt-degusta .wrap-instagram .arroba-instagram {
+    line-height: 20px;
 }
 .main-realizacao .wrap-realizacao-apoio {
     background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
-    width: 100vw;
     border-radius: 13px 13px 0 0;
-
 }
 .main-realizacao .wrap-realizacao-apoio ul {
     display: flex;
@@ -17,6 +39,9 @@
 }
 .realizador, .apoiador {
     margin-bottom: 3px;
+}
+.wrap-realizacao-apoio .logo-realizacao-apoio {
+    width: 100px;
 }
 
 /* @media screen and (max-width: 730px){
