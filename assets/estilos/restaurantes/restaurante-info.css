@@ -1,5 +1,5 @@
 .restaurante-info {
-    background-color: var(--color-dark);
+    background-color: var(--color-dark-medium);
 }
 .restaurante-info .bkg-info {
     background-image: url(../../imagens/background/bkg-mobile-textura-papel.svg);

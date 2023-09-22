@@ -47,6 +47,10 @@ a {
     margin-bottom: 12px;
     color: var(--color-dark-medium);
 }
+.t-text-address{
+    font-family: "Nobel Regular";
+    font-size: 16px;
+}
 .t-titulo-secao {
     font-family: "Damion";
     font-size: 32px;
