@@ -1,0 +1,15 @@
+.demais-estabelecimentos {
+    background-color: var(--color-dark-medium);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 30px;
+}
+.demais-estabelecimentos .button-demais-estabelecimentos {
+    display: flex;
+    width: 352px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--color-light);
+}

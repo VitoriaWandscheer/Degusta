@@ -44,7 +44,6 @@ a {
 .t-restaurante-info-ctt, .t-restaurante-button-demais {
     font-family: "Nobel Regular";
     font-size: 16px;
-    margin-bottom: 12px;
     color: var(--color-dark-medium);
 }
 .t-text-address{
