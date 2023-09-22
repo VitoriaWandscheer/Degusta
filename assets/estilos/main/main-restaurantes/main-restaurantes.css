@@ -53,7 +53,8 @@
 .restaurant-slide-controls {
     display: flex;
     align-items: center;
-    padding: 0 3rem;
+    margin: 0 3rem;
+
 }
 .restaurant-slide-control-button {
     cursor: pointer;
@@ -74,9 +75,9 @@
         width: 100%;
     }
     .wrap-restaurant-navigation {
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .restaurant-slide-controls {
-        padding: 0;
+        margin: 0px 1rem;
     }
 }
