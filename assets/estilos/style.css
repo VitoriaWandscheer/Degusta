@@ -33,6 +33,7 @@
 /* RESTAURANTES */
 @import url(restaurantes/restaurante-info.css);
 @import url(restaurantes/restaurante-endereco.css);
+@import url(restaurantes/restaurante-prato.css);
 
 /* PRATOS */
 @import url(pratos/init.css);

@@ -78,11 +78,13 @@ a {
 .t-card-rest-prato-participante {
     font-family: "Damion";
     font-size: 20px;
+    color: var(--color-first);
 }
 .t-card-rest-nome-prato {
     font-family: "Nobel Bold";
     font-size: 20px;
-    line-height: 113.5%;
+    margin: 10px 0 16px;
+    color: var(--color-dark-medium);
 }
 .t-realizacao, .t-apoio {
     font-family: "Nobel Regular";
