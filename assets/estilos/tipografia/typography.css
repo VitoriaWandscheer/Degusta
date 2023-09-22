@@ -59,7 +59,7 @@ a {
     font-size: 18px;
     color: var(--color-dark);
 }
-.t-button-saiba-mais, .t-detail {
+.t-button-saiba-mais, .t-arroba-instagram, .t-detail {
     font-family: "Nobel Book";
     font-size: 16px;
 }
@@ -72,10 +72,11 @@ a {
     font-size: 20px;
     line-height: 113.5%;
 }
-.t-realizacao, .t.apoio {
+.t-realizacao, .t-apoio {
     font-family: "Nobel Regular";
-    font-size: 12px;
+    font-size: 14px;
     color: var(--color-dark);
+    text-align: center;
 }
 
 /* 
