@@ -1,4 +1,4 @@
-.restaurante-info {
+.restaurante-detalhes {
     display: flex;
     flex-direction: column;
     background-color: var(--color-dark);
@@ -6,7 +6,7 @@
     align-items: center;
     overflow: hidden;
 }
-.restaurante-info .restaurante-logo{
+.restaurante-detalhes .restaurante-logo{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
     border-radius: 0px 0px 450px 450px;
     box-shadow: 0px 4px 4px #E8DED5;
 }
-.restaurante-info .restaurante-prato{
+.restaurante-detalhes .restaurante-prato{
     display: flex;
     height: 50vh;
     align-items: center;

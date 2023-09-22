@@ -35,8 +35,12 @@ a {
     font-family: "Nobel Book";
     font-size: 16px;
 }
-.t-observacao {
+.t-restaurante-titulo-ctt {
     font-family: "Damion";
+    font-size: 16px;
+}
+.t-restaurante-info-ctt {
+    font-family: "Nobel Regular";
     font-size: 16px;
 }
 .t-titulo-secao {
