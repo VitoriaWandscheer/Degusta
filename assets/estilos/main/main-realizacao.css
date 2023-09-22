@@ -4,6 +4,11 @@
     background-color: var(--color-dark-medium);
     width: 100vw;
 }
+.main-realizacao .wrap-realizacao-apoio {
+    background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
+    border-radius: 13px 13px 0 0;
+    padding: 16px;
+}
 .main-realizacao .wrap-ctt-degusta {
     display: flex;
     width: inherit;
@@ -26,11 +31,6 @@
 .main-realizacao .wrap-ctt-degusta .wrap-instagram .t-arroba-instagram {
     color: var(--color-light);
     line-height: 20px;
-}
-.main-realizacao .wrap-realizacao-apoio {
-    background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
-    border-radius: 13px 13px 0 0;
-    padding: 16px;
 }
 .main-realizacao .wrap-realizacao-apoio ul {
     display: flex;

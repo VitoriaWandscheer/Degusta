@@ -1,9 +1,32 @@
 .main-restaurantes {
+    background-color: var(--color-dark-medium);
+}
+.bkg-restaurantes {
     min-height: 100vh;
     position: relative;
     padding: 1.5rem 0;
     background-image: url(../../../imagens/background/bkg-mobile-textura-papel.svg);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+    border-radius: 0 0 13px 13px;
+}
+.section-decoration {
+    display: flex;
+    position: absolute;
+    flex-shrink: 100;
+    top: 0;
+}
+.section-decoration.var-left{
+    left: 0;
+}
+.section-decoration.var-right{
+    top: 1rem;
+    right: 0;
+}
+.main-restaurantes .t-titulo-secao {
+    text-align: initial;
+    padding-left: 144px;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
 /* Carousel */
 .wrapper-restaurantes {

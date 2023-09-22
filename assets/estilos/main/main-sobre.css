@@ -5,8 +5,6 @@
     background-color: var(--color-dark-medium);
     padding: 2rem 0 0;
     overflow: hidden;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
-
 }
 .main-sobre .t-titulo-secao {
     background-image: url(../../imagens/icons-decoration/titulo-papel-rasgado.svg);

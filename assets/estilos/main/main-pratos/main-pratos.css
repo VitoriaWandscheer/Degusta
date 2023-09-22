@@ -18,7 +18,9 @@
     top: 1rem;
     right: 0;
 }
-.t-titulo-secao {
+.main-pratos .t-titulo-secao {
+    text-align: initial;
+    padding-left: 78px;
     margin-top: 20px;
 }
 /* Carousel */
