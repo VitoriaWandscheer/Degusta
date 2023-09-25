@@ -30,8 +30,9 @@ a {
     font-family: "Nobel Regular";
     font-style: italic;
     font-size: 14px;
+    line-height: 130%;
 }
-.t-text-button {
+.t-text-button, .t-qtd-pessoas {
     font-family: "Nobel Book";
     font-size: 16px;
 }
@@ -46,7 +47,7 @@ a {
     font-size: 16px;
     color: var(--color-dark-medium);
 }
-.t-text-address{
+.t-text-address {
     font-family: "Nobel Regular";
     font-size: 16px;
 }
@@ -70,7 +71,7 @@ a {
     font-size: 18px;
     color: var(--color-dark);
 }
-.t-button-saiba-mais, .t-arroba-instagram, .t-detail {
+.t-arroba-instagram, .t-detail {
     font-family: "Nobel Book";
     font-size: 16px;
 }
@@ -90,4 +91,26 @@ a {
     font-size: 14px;
     color: var(--color-dark);
     text-align: center;
+}
+.t-prato-preco{
+    font-family: 'Nobel Bold';
+    color: var(--color-dark-medium);
+    font-size: 16px;
+}
+.t-prato-preco.-principal {
+    font-style: italic;
+    font-size: 36px;
+    margin-left: 2px;
+    margin-right: 4px;
+}
+.t-prato-preco.-centavos {
+    font-style: italic;
+}
+.t-rest-consumo {
+    font-family: "Damion";
+    font-size: 16px;
+    text-align: center;
+    line-height: 115%;
+    color: var(--color-dark-medium);
+    margin-top: 16px;
 }

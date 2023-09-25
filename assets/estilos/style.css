@@ -37,4 +37,5 @@
 @import url(restaurantes/demais-estabelecimentos.css);
 
 /* PRATOS */
-@import url(pratos/init.css);
+@import url(pratos/prato-info.css);
+@import url(pratos/card-estabelecimento.css);
