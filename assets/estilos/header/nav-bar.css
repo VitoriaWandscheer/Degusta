@@ -1,14 +1,11 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1vw 3vw;
+    padding: 2vw;
 }
 .nav-list {
     display: flex;
     align-items: center;
-}
-.logoDesktop {
-    width: 200px;
 }
 .nav-list ul {
     display: flex;
@@ -20,9 +17,6 @@
 }
 .nav-link {
     font-family: "Nobel Bold";
-    font-size: 15px;
-    color: var(--color-dark-medium);
-}
-.nav-link:hover {
-    color: var(--color-first);
+    color: var(--color-dark);
+    font-size: 1.3vw;
 }

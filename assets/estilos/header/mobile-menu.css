@@ -7,21 +7,12 @@
 .header-decoration {
     display: none;
 }
-header .logo-mobile {
-    display: none;
-}
 
 @media screen and (max-width: 730px){
     header {
         width: 100vw;
         overflow: hidden;
         background-color: var(--color-light);
-    }
-    header .logo-desktop {
-        display: none;
-    }
-    header .logo-mobile {
-        display: static;
     }
     .nav-bar {
         width: 100vw;
