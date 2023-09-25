@@ -6,13 +6,15 @@
     <title>Degusta Camboriú</title>
     <link rel="stylesheet" href="../assets/estilos/reset.css">
     <link rel="stylesheet" href="../assets/estilos/style.css">
-    <script src="../assets/scripts/scripts.js" defer></script>
 </head>
 <body>
     <header>
         <nav class="nav-bar">
-            <div id="logo-prefeitura">
-                <img src="../assets/imagens/logo-mobile-prefeitura.png" alt="Logo da Prefeitura de Camboriú">
+            <div class="header-decoration var-left">
+                <img src="../assets/imagens/icons-decoration/header-decoration-top-left.svg" alt="">
+            </div>
+            <div class="header-decoration var-right">
+                <img src="../assets/imagens/icons-decoration/header-decoration-top-right.svg" alt="">
             </div>
             <div class="nav-list">
                 <ul>
@@ -22,7 +24,7 @@
             </div>
             <div id="logo-degusta">
                 <a href="../index.html">
-                    <img src="../assets/imagens/logoDegusta.png" alt="Logo do Degusta">
+                    <h1 class="logoMobile">II CIRCUITO GASTRONÔMICO 2023</h1>
                 </a>
             </div>
             <div class="nav-list">
@@ -32,7 +34,7 @@
                 </ul>
             </div>
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img src="../assets/imagens/icon-menu.png" alt="Menu" class="icon"></button>
+                <button onclick="menuShow()"><img src="../assets/imagens/icon-menu.svg" alt="Menu" class="icon"></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -45,46 +47,58 @@
         </div>
     </header>
     <section class="prato-info">
-        <div class="wrap-nome">
-            <h1>Nome do Prato</h1>
-            <p class="subtitle">Complemento do nome do prato</p>
-        </div>
-        <div class="wrap-preco">
-            <p class="preco-moeda">R$</p>
-            <p class="preco-principal">00</p>
-            <p class="preco-centavos">,00</p>
-        </div>
         <div class="wrap-foto">
             <img src="#" alt="Foto do Prato">
         </div>
-        <div class="wrap-logo">
+        <div class="wrap-nome">
+            <h1>Nome do Prato</h1>
+            <!--LINHA-->
+        </div>
+        <div class="wrap-preco-qtd">
+            <div class="wrap-preco">
+                <p class="preco -moeda">R$</p>
+                <p class="preco -principal">00</p>
+                <p class="preco -centavos">,00</p>
+            </div>
+            <div class="qtd-pessoas">
+                <p>Serve x pessoas</p>
+            </div>
+        </div>
+        
+        <div class="wrap-estabelecimento">
             <img src="#" alt="Logo Restaurante">
+            <button class="saiba-mais">saiba mais</button>
+            <p class="t-rest-consumo">Consumo no local, delivery e retirada no balcão.</p>
         </div>
-        <div class="wrap-ingredientes">
-            <h2>Ingredientes</h2>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorum maxime fuga ipsam eaque quo.</p>
+
+        <div class="wrap-historia">
+            <h2 class="t-subtitulo-prato">História do Prato</h2>
+            <img src="#" alt="" class="decoration-livro">
+            <p class="t-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorum maxime fuga ipsam eaque quo.</p>
         </div>
     </section>
-    <section class="prato-historia">
-        <h2>História</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, iste autem. Eveniet, ut veniam eos dolorum sint soluta omnis iure minus aspernatur beatae itaque perspiciatis alias quos sequi nesciunt quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur non fuga facere a impedit autem voluptates? Aspernatur quisquam ipsum nemo maiores. Eligendi perferendis ab mollitia itaque atque, provident impedit. Ipsum!</p>
-    </section>
-    <section id="pratos" class="main-pratos prato-pratos">
-        <div class="decoration">
-            <img src="../assets/imagens/ervas.png" alt="">
+    <div class="box-decoration">
+        <img src="../assets/imagens/icons-decoration/faixa-decoration-panela.svg" alt="Gravura de uma panela com detalhes de pano de prato ao redor.">
+    </div>
+    <section id="pratos" class="main-pratos">
+        <div class="section-decoration var-left">
+            <img src="../assets/imagens/icons-decoration/decoration-top-left.svg" alt="">
         </div>
-        <h2 >Pratos Participantes</h2>
-        <section class="main-carousel">
+        <div class="section-decoration var-right">
+            <img src="../assets/imagens/icons-decoration/decoration-top-right.svg" alt="">
+        </div>
+        <h2 class="t-titulo-secao">Pratos Participantes</h2>
+        <section class="slider-pratos">
             <div class="slide-wrapper" data-slide="wrapper">
                 <div class="slide-list" data-slide="list">
                     <div class="slide-item wrapper-cards -first" data-slide="item" data-index="0">
-                        <a href="pratos/plate.html" class="link-plate">
+                        <a href="../pratos/plate.html" class="link-plate">
                             <div class="card-prato">
                                 <div class="wrap-img"><img src="../assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
                                 <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                                    <h3 class="t-titulo-prato">Sushi</h3>
+                                    <p class="t-card-prato-nome-rest">Nome do Restaurante</p>
+                                    <p class="t-card-prato-preco">R$ 00,00</p>
                                 </div>
                             </div>
                         </a>
@@ -92,9 +106,9 @@
                             <div class="card-prato">
                                 <div class="wrap-img"><img src="../assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
                                 <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                                    <h3 class="t-titulo-prato">Sushi</h3>
+                                    <p class="t-card-prato-nome-rest">Nome do Restaurante</p>
+                                    <p class="t-card-prato-preco">R$ 00,00</p>
                                 </div>
                             </div>  
                         </a>                     
@@ -104,9 +118,9 @@
                             <div class="card-prato">
                                 <div class="wrap-img"><img src="../assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
                                 <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                                    <h3 class="t-titulo-prato">Sushi</h3>
+                                    <p class="t-card-prato-nome-rest">Nome do Restaurante</p>
+                                    <p class="t-card-prato-preco">R$ 00,00</p>
                                 </div>
                             </div>
                         </a>
@@ -114,9 +128,9 @@
                             <div class="card-prato">
                                 <div class="wrap-img"><img src="../assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
                                 <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                                    <h3 class="t-titulo-prato">Sushi</h3>
+                                    <p class="t-card-prato-nome-rest">Nome do Restaurante</p>
+                                    <p class="t-card-prato-preco">R$ 00,00</p>
                                 </div>
                             </div>
                         </a>
@@ -126,9 +140,9 @@
                             <div class="card-prato">
                                 <div class="wrap-img"><img src="../assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
                                 <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                                    <h3 class="t-titulo-prato">Sushi</h3>
+                                    <p class="t-card-prato-nome-rest">Nome do Restaurante</p>
+                                    <p class="t-card-prato-preco">R$ 00,00</p>
                                 </div>
                             </div>
                         </a>
@@ -136,9 +150,9 @@
                             <div class="card-prato">
                                 <div class="wrap-img"><img src="../assets/imagens/prato-teste.png" alt="Imagem do Prato"></div>
                                 <div class="wrap-info">
-                                    <h3>Sushi</h3>
-                                    <p class="nomeRestaurante">Nome do Restaurante</p>
-                                    <p class="preco">R$ 00,00</p>
+                                    <h3 class="t-titulo-prato">Sushi</h3>
+                                    <p class="t-card-prato-nome-rest">Nome do Restaurante</p>
+                                    <p class="t-card-prato-preco">R$ 00,00</p>
                                 </div>
                             </div>
                         </a>
@@ -153,12 +167,11 @@
         </section>
     </section>
     <footer>
-        <section class="mapa-site">
-            
-        </section>
         <section class="copyright">
             <p>&copy; 2023 - Departamento de Tecnologia e Inovação | Prefeitura Municipal de Camboriú</p>
         </section>
     </footer>
+    <script src="../assets/scripts/menu-mobile.js"></script>
+    <script src="../assets/scripts/slider-plate.js"></script>
 </body>
 </html>
