@@ -1,24 +1,10 @@
 .main-sobre {
     display: flex;
-    background-color: var(--color-dark-medium);
-    min-height: 90vh;
-}
-.wrap-decoration-sobre {
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-}
-.var-sobre {
-    width: 40vw;
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-color: var(--color-dark-medium);
     padding: 2rem 0 0;
     overflow: hidden;
-}
-.decoration-sobre {
-    width: 400px;
 }
 .main-sobre .t-titulo-secao {
     background-image: url(../../imagens/icons-decoration/titulo-papel-rasgado.svg);
@@ -38,16 +24,4 @@
     text-align: center;
     line-height: 130%;
     padding: 2rem;
-}
-
-@media screen and (max-width: 730px){
-    .wrap-decoration-sobre {
-        display: none;
-    }
-    .var-sobre {
-        width: 100vw;
-    }
-    .main-sobre .t-texto {
-        text-align: center;
-    }
 }
