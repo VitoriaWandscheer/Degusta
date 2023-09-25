@@ -7,15 +7,14 @@
     width: 50vw;
     display: flex;
     justify-content: center;
-    background-color: yellowgreen;
 }
 .var-sobre {
-    width: 50vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 3rem 0;
+    padding: 2rem 0 0;
     overflow: hidden;
 }
 .decoration-sobre {
@@ -47,7 +46,6 @@
     }
     .var-sobre {
         width: 100vw;
-        padding: 2rem 0 0;
     }
     .main-sobre .t-texto {
         text-align: center;
