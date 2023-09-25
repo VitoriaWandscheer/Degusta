@@ -5,6 +5,13 @@
     background-color: var(--color-light);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
 }
+.wrap-decoration-prato {
+    width: 30vw;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 22%;
+    right: 0;
+}
 .section-decoration {
     display: flex;
     position: absolute;
@@ -24,6 +31,9 @@
     margin-top: 20px;
 }
 /* Carousel */
+.slider-pratos{
+    width: 60vw;
+}
 .slide-wrapper {
     position: relative;
     z-index: 2;
@@ -48,7 +58,7 @@
 }
 .wrap-navigation{
     display: flex;
-    width: 94vw;
+    width: 94%;
     justify-content: center;
 }
 .slide-nav-button {
@@ -90,7 +100,13 @@
     background-image: url(../../../imagens/icons-navigation/active-circle.svg);
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 730px) {   
+    .wrap-decoration-prato {
+        display: none;
+    }
+    .slider-pratos{
+        width: 100vw;
+    }
     .slide-controls {
         margin: 0px 1rem;
     }
