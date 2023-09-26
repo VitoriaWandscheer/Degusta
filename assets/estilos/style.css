@@ -8,6 +8,7 @@
 
 /* CSS das TAGS */
 @import url(main/main.css);
+@import url(main/loading-page.css);
 
 /* HEADER */
 @import url(header/header.css);

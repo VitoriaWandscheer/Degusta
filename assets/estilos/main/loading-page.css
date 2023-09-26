@@ -1,0 +1,43 @@
+.loading {
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.loading .decoration {
+    border-radius: 20px;
+    width: 300px;
+}
+.loading h1 {
+    font-family: "Nobel Regular";
+    font-style: italic;
+    color: var(--color-light);
+    font-size: 16px;
+}
+.loading p {
+    font-family: "Damion";
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-light);
+}
+.loading .versao-mobile {
+    position: absolute;
+    z-index: 2;
+    bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loading .logoDegusta {
+    width: 100px;
+}
+
+@media screen and (max-width: 730px){
+    .loading {
+        display: none;
+    }
+}

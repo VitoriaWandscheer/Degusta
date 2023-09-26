@@ -1,19 +1,21 @@
-footer section.copyright {
-    width: 100%;
-    height: auto;
-    padding: 1vh;
-    text-align: center;
-    background-color: var(--color-dark);
-}
-footer section.copyright p {
-    line-height: 3vh;
-    color: var(--color-light);
-    font-family: "Nobel Regular";
-    font-size: 1rem;
+footer {
+    display: none;
 }
 
 @media screen and (max-width: 730px){
-    footer section.copyright p {
-        font-size: 2.5vw;
+    footer {
+        display: block;
     }
+    footer section.copyright {
+        width: 100%;
+        height: auto;
+        padding: 1vh;
+        text-align: center;
+        background-color: var(--color-dark);
+    }
+    footer section.copyright p {
+        line-height: 3vh;
+        color: var(--color-light);
+        font-family: "Nobel Regular";
+        font-size: 2.5vw;    }
 }
