@@ -15,8 +15,10 @@
     src: url('31231.woff2') format('woff2');
 }
 a {
+    font-family: "Nobel Regular";
     text-decoration: none;
-    color: var(--color-dark);
+    color: var(--color-dark-medium);
+    font-size: 0.9rem;
 }
 .t-titulo-prato {
     font-family: "Nobel Bold";

@@ -15,8 +15,3 @@
 .nav-item {
     margin: 0 1.5vw;
 }
-.nav-link {
-    font-family: "Nobel Bold";
-    color: var(--color-dark);
-    font-size: 1.3vw;
-}

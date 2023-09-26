@@ -60,11 +60,6 @@
         display: block;
         padding-top: 1.2rem;
     }
-    .nav-link {
-        font-family: "Nobel Regular";
-        color: var(--color-medium);
-        font-size: 0.8rem;
-    }
     .open {
         display: block;
     }
