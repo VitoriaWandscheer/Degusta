@@ -29,9 +29,7 @@
     }
     .main-restaurantes .t-titulo-secao {
         text-align: initial;
-        padding-left: 144px;
-        margin-top: 20px;
-        margin-bottom: 35px;
+        margin: 20px 0 50px 20vw;
     }
     /* Carousel */
     .wrapper-restaurantes {

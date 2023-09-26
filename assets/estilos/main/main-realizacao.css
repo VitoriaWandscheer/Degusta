@@ -12,7 +12,7 @@
     .main-realizacao .wrap-realizacao-apoio {
         background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
         border-radius: 13px 13px 0 0;
-        padding: 16px;
+        padding: 40px 10px;
         width: 100%;
         overflow: hidden;
     }
@@ -45,7 +45,8 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 20px;
         list-style: none;
     }
     .realizador, .apoiador {

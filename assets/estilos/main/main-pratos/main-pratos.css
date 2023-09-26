@@ -26,8 +26,7 @@
     }
     .main-pratos .t-titulo-secao {
         text-align: initial;
-        padding-left: 78px;
-        margin-top: 20px;
+        margin: 20px 0 50px 78px;
     }
     /* Carousel */
     .slide-wrapper {
@@ -45,8 +44,7 @@
     .slide-item {
         flex-shrink: 0;
         padding: 0 2.5vw;
-        width: 30rem;
-        max-width: 95vw;
+        width: 410px;
     }
     .wrapper-cards {
         display: flex;
