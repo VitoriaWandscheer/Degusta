@@ -2,18 +2,23 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color-dark-medium);
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
 }
 .main-realizacao .wrap-realizacao-apoio {
     background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
     border-radius: 13px 13px 0 0;
     padding: 16px;
+    width: 100%;
+    overflow: hidden;
 }
 .main-realizacao .wrap-ctt-degusta {
     display: flex;
     width: inherit;
     justify-content: space-evenly;
     padding: 45px 0;
+    width: 100%;
+    overflow: hidden;
 }
 .main-realizacao .wrap-ctt-degusta .logo-degusta-footer {
     width: 200px;

@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 730px){
     header {
-        width: 100vw;
+        width: 100%;
         overflow: hidden;
         background-color: var(--color-light);
     }
@@ -21,7 +21,7 @@
         align-items: center;
     }
     .wrap-decoration {
-        width: 100vw;
+        width: 100%;
     }
     .header-decoration {
         display: flex;
