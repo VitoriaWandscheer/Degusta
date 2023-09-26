@@ -1,21 +1,28 @@
 .restaurante-info {
-    background-color: var(--color-dark-medium);
+    display: none;
 }
-.restaurante-info .bkg-info {
-    background-image: url(../../imagens/background/bkg-mobile-textura-papel.svg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 0 40px 0;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
-    border-radius: 0 0 25px 25px;
-}
-.restaurante-info .restaurante-logo {
-    width: 180px;
-}
-.restaurante-info .restaurante-detalhes {
-    text-align: center;
-}
-.restaurante-info .t-restaurante-titulo-ctt {
-    margin-top: 12px;
+
+@media screen and (max-width: 730px){
+    .restaurante-info {
+        display: block;
+        background-color: var(--color-dark-medium);
+    }
+    .restaurante-info .bkg-info {
+        background-image: url(../../imagens/background/bkg-mobile-textura-papel.svg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0 40px 0;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+        border-radius: 0 0 25px 25px;
+    }
+    .restaurante-info .restaurante-logo {
+        width: 180px;
+    }
+    .restaurante-info .restaurante-detalhes {
+        text-align: center;
+    }
+    .restaurante-info .t-restaurante-titulo-ctt {
+        margin-top: 12px;
+    }
 }
