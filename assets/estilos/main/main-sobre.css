@@ -1,27 +1,33 @@
 .main-sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--color-dark-medium);
-    padding: 2rem 0 0;
-    overflow: hidden;
+    display: none;
 }
-.main-sobre .t-titulo-secao {
-    background-image: url(../../imagens/icons-decoration/titulo-papel-rasgado.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 360px;
-    height: 80px;
-    color: var(--color-first);
-    text-align: center;
-    line-height: 80px;
-    transform: rotate(-3deg);
-}
-.main-sobre .t-texto {
-    max-width: 90vw;
-    color: var(--color-light);
-    font-family: "Nobel Book";
-    text-align: center;
-    line-height: 130%;
-    padding: 2rem;
+
+@media screen and (max-width: 730px){
+    .main-sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--color-dark-medium);
+        padding: 2rem 0 0;
+        overflow: hidden;
+    }
+    .main-sobre .t-titulo-secao {
+        background-image: url(../../imagens/icons-decoration/titulo-papel-rasgado.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 360px;
+        height: 80px;
+        color: var(--color-first);
+        text-align: center;
+        line-height: 80px;
+        transform: rotate(-3deg);
+    }
+    .main-sobre .t-texto {
+        max-width: 90vw;
+        color: var(--color-light);
+        font-family: "Nobel Book";
+        text-align: center;
+        line-height: 130%;
+        padding: 2rem;
+    }
 }

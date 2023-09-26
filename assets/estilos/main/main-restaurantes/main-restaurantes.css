@@ -1,96 +1,102 @@
 .main-restaurantes {
-    background-color: var(--color-dark-medium);
+    display: none;
 }
-.bkg-restaurantes {
-    min-height: 100vh;
-    position: relative;
-    padding: 1.5rem 0;
-    background-image: url(../../../imagens/background/bkg-mobile-textura-papel.svg);
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
-    border-radius: 0 0 13px 13px;
-}
-.section-decoration {
-    display: flex;
-    position: absolute;
-    flex-shrink: 100;
-    top: 0;
-}
-.section-decoration.var-left{
-    left: 0;
-}
-.section-decoration.var-right{
-    top: 1rem;
-    right: 0;
-}
-.main-restaurantes .t-titulo-secao {
-    text-align: initial;
-    padding-left: 144px;
-    margin-top: 20px;
-    margin-bottom: 35px;
-}
-/* Carousel */
-.wrapper-restaurantes {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-.slide-list-restaurant {
-    display: flex;
-}
-.restaurant-slide-item {
-    flex-shrink: 0;
-}
-.wrapper-restaurant-cards {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 730px) {
+    .main-restaurantes {
+        display: block;
+        background-color: var(--color-dark-medium);
+    }
+    .bkg-restaurantes {
+        min-height: 100vh;
+        position: relative;
+        padding: 1.5rem 0;
+        background-image: url(../../../imagens/background/bkg-mobile-textura-papel.svg);
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+        border-radius: 0 0 13px 13px;
+    }
+    .section-decoration {
+        display: flex;
+        position: absolute;
+        flex-shrink: 100;
+        top: 0;
+    }
+    .section-decoration.var-left{
+        left: 0;
+    }
+    .section-decoration.var-right{
+        top: 1rem;
+        right: 0;
+    }
+    .main-restaurantes .t-titulo-secao {
+        text-align: initial;
+        padding-left: 144px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    /* Carousel */
+    .wrapper-restaurantes {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .slide-list-restaurant {
+        display: flex;
+    }
+    .restaurant-slide-item {
+        flex-shrink: 0;
+    }
+    .wrapper-restaurant-cards {
+        display: flex;
+        flex-direction: column;
 
-}
-.wrap-restaurant-navigation {
-    display: flex;
-    width: 94vw;
-    justify-content: center;
-}
-.restaurant-slide-nav-button {
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    width: 2rem;
-    height: 2rem;
-}
-.restaurant-slide-nav-previous {
-    background-image: url(../../../imagens/icons/arrowRight.svg);
-}
-.restaurant-slide-nav-previous:hover {
-    transform: scale(1.2);
-}
-.restaurant-slide-nav-next {
-    background-image: url(../../../imagens/icons/arrowLeft.svg);
-}
-.restaurant-slide-nav-next:hover {
-    transform: scale(1.2);
-}
-.restaurant-slide-controls {
-    display: flex;
-    align-items: center;
-    margin: 0 3rem;
+    }
+    .wrap-restaurant-navigation {
+        display: flex;
+        width: 94vw;
+        justify-content: center;
+    }
+    .restaurant-slide-nav-button {
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        width: 2rem;
+        height: 2rem;
+    }
+    .restaurant-slide-nav-previous {
+        background-image: url(../../../imagens/icons/arrowRight.svg);
+    }
+    .restaurant-slide-nav-previous:hover {
+        transform: scale(1.2);
+    }
+    .restaurant-slide-nav-next {
+        background-image: url(../../../imagens/icons/arrowLeft.svg);
+    }
+    .restaurant-slide-nav-next:hover {
+        transform: scale(1.2);
+    }
+    .restaurant-slide-controls {
+        display: flex;
+        align-items: center;
+        margin: 0 3rem;
 
-}
-.restaurant-slide-control-button {
-    cursor: pointer;
-    background-image: url(../../../imagens/icons-navigation/circle.svg);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 1rem;
-    height: 1rem;
-    margin: 0px 0.3rem;
-}
-.restaurant-slide-control-button.active {
-    background-image: url(../../../imagens/icons-navigation/active-circle.svg);
+    }
+    .restaurant-slide-control-button {
+        cursor: pointer;
+        background-image: url(../../../imagens/icons-navigation/circle.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1rem;
+        height: 1rem;
+        margin: 0px 0.3rem;
+    }
+    .restaurant-slide-control-button.active {
+        background-image: url(../../../imagens/icons-navigation/active-circle.svg);
+    }
 }
 
 @media screen and (max-width: 730px) {

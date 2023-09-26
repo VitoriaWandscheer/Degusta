@@ -1,5 +1,12 @@
 header {
-    width: 100%;
-    overflow: hidden;
-    background-color: var(--color-light);
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    header {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--color-light);
+    }
 }

@@ -1,63 +1,57 @@
 .main-realizacao {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-dark-medium);
-    width: 100%;
-    overflow: hidden;
+    display: none;
 }
-.main-realizacao .wrap-realizacao-apoio {
-    background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
-    border-radius: 13px 13px 0 0;
-    padding: 16px;
-    width: 100%;
-    overflow: hidden;
-}
-.main-realizacao .wrap-ctt-degusta {
-    display: flex;
-    width: inherit;
-    justify-content: space-evenly;
-    padding: 45px 0;
-    width: 100%;
-    overflow: hidden;
-}
-.main-realizacao .wrap-ctt-degusta .logo-degusta-footer {
-    width: 200px;
-}
-.main-realizacao .wrap-ctt-degusta .wrap-instagram {
-    display: flex;
-    flex-wrap: wrap;
-    width: 150px;
-    justify-content: center;
-}
-.main-realizacao .wrap-ctt-degusta .wrap-instagram .qr-code {
-    width: fit-content;
-    margin-bottom: 10px;
-}
-.main-realizacao .wrap-ctt-degusta .wrap-instagram .t-arroba-instagram {
-    color: var(--color-light);
-    line-height: 20px;
-}
-.main-realizacao .wrap-realizacao-apoio ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    list-style: none;
-}
-.realizador, .apoiador {
-    margin-bottom: 3px;
-}
-.wrap-realizacao-apoio .logo-realizacao-apoio {
-    width: 85px;
-}
-
-/* @media screen and (max-width: 730px){
-    .realizacao {
-        height: 450px;
-        background-color: var(--color-first);
+@media screen and (max-width: 730px) {
+    .main-realizacao {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-dark-medium);
+        width: 100%;
+        overflow: hidden;
     }
-    .main-realizacao .wrapper-all {
-        width: 80%;
-        padding: 15px;
+    .main-realizacao .wrap-realizacao-apoio {
+        background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.svg);
+        border-radius: 13px 13px 0 0;
+        padding: 16px;
+        width: 100%;
+        overflow: hidden;
     }
-} */
+    .main-realizacao .wrap-ctt-degusta {
+        display: flex;
+        width: inherit;
+        justify-content: space-evenly;
+        padding: 45px 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .main-realizacao .wrap-ctt-degusta .logo-degusta-footer {
+        width: 200px;
+    }
+    .main-realizacao .wrap-ctt-degusta .wrap-instagram {
+        display: flex;
+        flex-wrap: wrap;
+        width: 150px;
+        justify-content: center;
+    }
+    .main-realizacao .wrap-ctt-degusta .wrap-instagram .qr-code {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+    .main-realizacao .wrap-ctt-degusta .wrap-instagram .t-arroba-instagram {
+        color: var(--color-light);
+        line-height: 20px;
+    }
+    .main-realizacao .wrap-realizacao-apoio ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    .realizador, .apoiador {
+        margin-bottom: 3px;
+    }
+    .wrap-realizacao-apoio .logo-realizacao-apoio {
+        width: 85px;
+    }
+}
