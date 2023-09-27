@@ -18,9 +18,8 @@
     }
     .main-realizacao .wrap-ctt-degusta {
         display: flex;
-        width: inherit;
         justify-content: space-evenly;
-        padding: 45px 0;
+        padding: 100px 0;
         width: 100%;
         overflow: hidden;
     }
