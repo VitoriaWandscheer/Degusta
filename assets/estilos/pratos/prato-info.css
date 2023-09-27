@@ -67,6 +67,7 @@
         color: var(--color-dark-medium);
     }
     .main-pratos.-var-prato {
-        height: 90vh;
+        height: fit-content;
+        padding-bottom: 30px;
     }
 }
