@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degusta Camboriú</title>
+    <link rel="icon" type="image/x-icon" href="../assets/imagens/favicon.ICO">
+    <link rel="stylesheet" href="../assets/estilos/reset.css">
+    <link rel="stylesheet" href="../assets/estilos/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="header-decoration var-left">
+                <img src="../assets/imagens/icons-decoration/header-decoration-top-left.svg" alt="">
+            </div>
+            <div class="header-decoration var-right">
+                <img src="../assets/imagens/icons-decoration/header-decoration-top-right.svg" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../index.html#sobre">SOBRE</a></li>
+                    <li class="nav-item"><a href="../index.html#realizacao">REALIZAÇÃO</a></li>
+                </ul>
+            </div>
+            <div id="logo-degusta">
+                <a href="../index.html">
+                    <h1 class="logoMobile">II CIRCUITO GASTRONÔMICO 2023</h1>
+                </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#pratos" class="nav-link">MENUS</a></li>
+                    <li class="nav-item"><a href="../index.html#restaurantes">RESTAURANTES</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="../assets/imagens/icon-menu.svg" alt="Menu" class="icon"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="../index.html#sobre">SOBRE</a></li>
+                <li class="nav-item"><a href="../index.html#restaurantes">RESTAURANTES</a></li>
+                <li class="nav-item"><a href="#pratos" class="nav-link">MENUS</a></li>
+                <li class="nav-item"><a href="../index.html#realizacao">REALIZAÇÃO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="loading">
+        <img src="../assets/imagens/loading-page.gif" alt="Gravura de uma panela" class="decoration">
+        <h1>versão desktop em produção...</h1>
+        <div class="versao-mobile">
+            <img src="assets/imagens/logoDegusta.png" alt="" class="logoDegusta">
+            <p>Já disponível na versão mobile!</p>
+        </div>
+    </section>
+    <section class="prato-info">
+        <div class="wrap-foto">
+            <img class="foto-prato" src="../assets/imagens/pratos/mestre-da-pizza.jpg" alt="Foto do Prato">
+        </div>
+        <div class="wrap-nome">
+            <h1 class="t-titulo-prato">Memórias da Família Rocha</h1>
+            <img src="../assets/imagens/icons-decoration/Line.svg" alt="" class="linha">
+        </div>
+        <div class="wrap-content">
+            <div class="decoration">
+                <img src="../assets/imagens/icons-decoration/LivroReceitas.svg" alt="" class="livro-decoration">
+            </div>
+            <div class="wrap-left">
+                <div class="wrap-preco">
+                    <p class="t-prato-preco -moeda">R$</p>
+                    <p class="t-prato-preco -principal">56</p>
+                    <p class="t-prato-preco -centavos">,00</p>
+                </div>
+                <p class="t-qtd-pessoas">Serve 2 pessoas</p>
+                <div class="card-estabelecimento">
+                    <img class="logo-estabelecimento" src="../assets/imagens/logo-restaurante/logo-Mestre-Da-Pizza.png" alt="Logo Restaurante">
+                    <a href="../restaurantes/mestredapizza.html">
+                        <button class="saiba-mais">saiba mais</button>
+                    </a>
+                    <p class="t-rest-consumo">Consumo no local, delivery e retirada no balcão.</p>
+                </div>
+            </div>
+            <div class="wrap-historia">
+                <h2 class="t-subtitulo-prato">História do Prato</h2>
+                <p class="t-texto">Hoje empresário, Silvio Rocha já foi homem da roça, período em que salgava a carne para armazenar. A pizza especial do Mestre da Pizza é feita com massa artesanal, molho de tomate, mussarela, deliciosa carne seca caseira, queijo colonial da região, finalizado com banana da terra transformada em palha artesanalmente e um blend de azeites de oliva com manjericão e orégano. Pizza broto com quatro fatias, serve até 2 pessoas (ou fração em qualquer outro tamanho por R$ 10,00 adicional na pizza).</p>
+            </div>
+        </div>
+    </section>
+    <div class="box-decoration">
+        <img src="../assets/imagens/icons-decoration/faixa-decoration-panela.svg" alt="Gravura de uma panela com detalhes de pano de prato ao redor.">
+    </div>
+    <section id="pratos" class="main-pratos -var-prato">
+        <div class="section-decoration var-left">
+            <img src="../assets/imagens/icons-decoration/decoration-top-left.svg" alt="">
+        </div>
+        <div class="section-decoration var-right">
+            <img src="../assets/imagens/icons-decoration/decoration-top-right.svg" alt="">
+        </div>
+        <h2 class="t-titulo-secao">Menus</h2>
+        <section class="slider-pratos">
+            <div class="slide-wrapper" data-slide="wrapper">
+                <div class="slide-list" data-slide="list">
+                    <div class="slide-item wrapper-cards -first" data-slide="item" data-index="0">
+                        <!--Abelinhas Doce-->
+                        <a href="pratos/plate.html" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img">
+                                    <img src="../assets/imagens/pratos/abelinhas-doce.jpg" alt="Imagem do prato: Bolo Lorencet.">
+                                </div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Bolo Lorencet
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Abelinhas Doce
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 26,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Buffalo Bill Hamburgueria-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/buffalo-bill.jpg" alt="Imagem do prato: Caiçara"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Caiçara
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Buffalo Bill Hamburgueria
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 39,00
+                                    </p>
+                                </div>
+                            </div>  
+                        </a>                     
+                    </div>
+                    <div class="slide-item wrapper-cards -second" data-slide="item" data-index="1">
+                        <!--Conceito Vida Saudável-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/conceito-vida-saudavel.jpg" alt="Imagem do prato: Conceito Leve"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Conceito Leve
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Conceito Vida Saudável
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 39,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Criativa Padaria Artesanal e Afetiva-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/criatica-padaria-artesanal.jpg" alt="Imagem do prato: Combo Domini by Criativa"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Combo Domini by Criativa
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Criativa Padaria Artesanal e Afetiva
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 39,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-item wrapper-cards -third" data-slide="item" data-index="2">
+                        <!--Do Nery Restaurante e Petiscaria-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/do-nery.jpg" alt="Imagem do prato: Bife a rolê da Nina"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Bife a rolê da Nina
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Do Nery Restaurante e Petiscaria
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 76,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Espaço Rural Panaceia-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/espaco-rural-panaceia.jpg" alt="Imagem do prato: Tesouros Vegs das Famílias Tradicionais"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Tesouros Vegs das Famílias Tradicionais
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Espaço Rural Panaceia
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 36,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-item wrapper-cards -fourth" data-slide="item" data-index="3">
+                        <!--Gran Pani-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/gran-pani.jpg" alt="Imagem do prato: Quitutes da Vó Lola"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Quitutes da Vó Lola
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Gran Pani
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 39,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Gravy-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/gravy.jpg" alt="Imagem do prato: Menu Família Hélio Silva"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Menu Família Hélio Silva
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Gravy
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 76,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-item wrapper-cards -fifth" data-slide="item" data-index="4">
+                        <!--Mestre da Pizza-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/mestre-da-pizza.jpg" alt="Imagem do prato: ?"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Pizza Especial
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Mestre da Pizza
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 56,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Momentos Lanches-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/momentos.jpg" alt="Imagem do prato: Hot Dog do Momentos"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Hot Dog do Momentos
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Momentos Lanches
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 00,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-item wrapper-cards -fifth" data-slide="item" data-index="5">
+                        <!--Restaurante Vô Ivo-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/vo-ivo.jpg" alt="Imagem do prato: Eterna Vó Maurina Pereira"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Eterna Vó Maurina Pereira
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Restaurante Vô Ivo
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 76,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Richards Sushi-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/richards-sushi.jpg" alt="Imagem do prato: Combo Duarte"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Combo Duarte
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Richards Sushi
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 76,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-item wrapper-cards -fifth" data-slide="item" data-index="6">
+                        <!--Sabor Caramelo Cafeteria-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/sabor-caramelo.jpg" alt="Imagem do prato: Heranças da Avó Odete"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Heranças da Avó Odete
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Sabor Caramelo Cafeteria
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 39,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!--Top Burguer-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/top-burguer.jpg" alt="Imagem do prato: Top Vignoli"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Top Vignoli
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Top Burguer
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        R$ 36,00
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-item wrapper-cards -sixth" data-slide="item" data-index="7">
+                        <!--Cervejaria Faroeste-->
+                        <a href="#" class="link-plate">
+                            <div class="card-prato">
+                                <div class="wrap-img"><img src="../assets/imagens/pratos/sabor-caramelo.jpg" alt="Imagem das Cervejas Especiais"></div>
+                                <div class="wrap-info">
+                                    <h3 class="t-titulo-prato">
+                                        Cervejas Especiais
+                                    </h3>
+                                    <p class="t-card-prato-nome-rest">
+                                        Cervejaria Faroeste
+                                    </p>
+                                    <p class="t-card-prato-preco">
+                                        <!-- R$ 00,00 -->
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="wrap-navigation">
+                    <button class="slide-nav-button slide-nav-previous" data-slide="nav-previous-button"></button>
+                    <div class="slide-controls" data-slide="controls-wrapper"></div>
+                    <button class="slide-nav-button slide-nav-next" data-slide="nav-next-button"></button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section class="copyright">
+            <p>&copy; 2023 - Departamento de Tecnologia e Inovação | Prefeitura Municipal de Camboriú</p>
+        </section>
+    </footer>
+    <script src="../assets/scripts/menu-mobile.js"></script>
+    <script src="../assets/scripts/slider-plate.js"></script>
+</body>
+</html>
