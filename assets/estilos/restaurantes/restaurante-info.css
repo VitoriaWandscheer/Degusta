@@ -12,6 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 450px;
         padding: 15px 0 40px 0;
         box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
         border-radius: 0 0 25px 25px;

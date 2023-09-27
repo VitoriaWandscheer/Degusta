@@ -8,7 +8,7 @@
 .restaurante-endereco .wrap-map{
     position: relative;
     width: 40vw;
-    height: 55vh;
+    height: 20vw;
     border-radius: 13px;
 }
 .restaurante-endereco .wrap-map .map {
@@ -41,7 +41,7 @@
     }
     .restaurante-endereco .wrap-map{
         width: 80vw;
-        height: 45vh;
+        height: 40vw;
     }
     .restaurante-endereco .wrap-address-text{
         width: 80vw;
