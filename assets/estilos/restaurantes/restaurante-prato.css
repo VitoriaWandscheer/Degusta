@@ -1,31 +1,38 @@
 .restaurante-prato {
-    background-color: var(--color-dark-medium);
+    display: none;
 }
-.restaurante-prato .bkg-prato-participante {
-    background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
-    border-radius: 25px 25px 0 0;
-}
-.restaurante-prato .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3vw;
-    padding: 50px 0;
-}
-.restaurante-prato .wrap-foto-prato {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 192px;
-    height: 165px;
-    margin-left: 30px;
-    overflow: hidden;
-    border-radius: 18px;
-    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.restaurante-prato .foto-prato {
-    height: 165px;
-}
-.restaurante-prato .wrap-info {
-    width: 215px;
+
+@media screen and (max-width: 730px){
+    .restaurante-prato {
+        display: block;
+        background-color: var(--color-dark-medium);
+    }
+    .restaurante-prato .bkg-prato-participante {
+        background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
+        border-radius: 25px 25px 0 0;
+    }
+    .restaurante-prato .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        padding: 50px 0;
+    }
+    .restaurante-prato .wrap-foto-prato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 192px;
+        height: 165px;
+        margin-left: 30px;
+        overflow: hidden;
+        border-radius: 18px;
+        box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .restaurante-prato .foto-prato {
+        height: 165px;
+    }
+    .restaurante-prato .wrap-info {
+        width: 215px;
+    }
 }
