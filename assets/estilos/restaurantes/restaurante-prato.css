@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
     width: 192px;
     height: 165px;
     overflow: hidden;
