@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degusta Camboriú</title>
+    <link rel="icon" type="image/x-icon" href="../assets/imagens/favicon.ICO">
+    <link rel="stylesheet" href="../assets/estilos/reset.css">
+    <link rel="stylesheet" href="../assets/estilos/style.css">
+    <script src="../assets/scripts/menu-mobile.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="header-decoration var-left">
+                <img src="../assets/imagens/icons-decoration/header-decoration-top-left.svg" alt="">
+            </div>
+            <div class="header-decoration var-right">
+                <img src="../assets/imagens/icons-decoration/header-decoration-top-right.svg" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../index.html#sobre">SOBRE</a></li>
+                    <li class="nav-item"><a href="../index.html#realizacao">REALIZAÇÃO</a></li>
+                </ul>
+            </div>
+            <div id="logo-degusta">
+                <a href="../index.html">
+                    <h1 class="logoMobile">II CIRCUITO GASTRONÔMICO 2023</h1>
+                </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="../index.html#pratos">MENUS</a></li>
+                    <li class="nav-item"><a href="../index.html#restaurantes">RESTAURANTES</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="../assets/imagens/icon-menu.svg" alt="Menu" class="icon"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="../index.html#sobre">SOBRE</a></li>
+                <li class="nav-item"><a href="../index.html#restaurantes">RESTAURANTES</a></li>
+                <li class="nav-item"><a href="../index.html#pratos">MENUS</a></li>
+                <li class="nav-item"><a href="../index.html#realizacao">REALIZAÇÃO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="loading">
+        <img src="../assets/imagens/loading-page.gif" alt="Gravura de uma panela" class="decoration">
+        <h1>versão desktop em produção...</h1>
+        <div class="versao-mobile">
+            <img src="assets/imagens/logoDegusta.png" alt="" class="logoDegusta">
+            <p>Já disponível na versão mobile!</p>
+        </div>
+    </section>
+    <section class="restaurante-info">
+        <div class="bkg-info">
+            <img class="restaurante-logo" src="../assets/imagens/logo-restaurante/logo-Richard-Sushi.png" alt="Logo Richards Sushi">
+            <div class="restaurante-detalhes">
+                <h2 class="t-restaurante-titulo-ctt">WhatsApp:</h2>
+                <p class="t-restaurante-info-ctt">(47) 98814-2098</p>
+                <h2 class="t-restaurante-titulo-ctt">Instagram:</h2>
+                <p class="t-restaurante-info-ctt">@richards_sushi</p>
+                <h2 class="t-restaurante-titulo-ctt">Horário de atendimento:</h2>
+                <p class="t-restaurante-info-ctt">Terça a Domingo</p>
+            </div>
+        </div>
+    </section>
+    <section class="restaurante-endereco">
+        <div class="wrap-map">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.4575726853013!2d-48.78284402519039!3d-27.110394201491268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df4bf52341c277%3A0x54c8527f34cac4ad!2sEspa%C3%A7o%20Rural%20Panaceia!5e0!3m2!1spt-BR!2sbr!4v1695664638540!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="wrap-address-text">
+            <img class="icon-map" src="../assets/imagens/address-pin.svg" alt="Ícone endereço">
+            <h2 class="t-text-address">Rua Guaraparim, 118</h2>
+        </div>
+    </section>
+    <section class="restaurante-prato">
+        <div class="content bkg-prato-participante">
+            <div class="wrap-foto-prato">
+                <img class="foto-prato" src="../assets/imagens/pratos/richards-sushi.jpg" alt="Foto do prato: Combo Duarte">
+            </div>
+            <div class="wrap-info">
+                <h2 class="t-card-rest-prato-participante">Prato Participante</h2>
+                <p class="t-card-rest-nome-prato">Combo Duarte</p>
+                <a href="../pratos/menu-richards.html">
+                    <button  class="saiba-mais t-button-saiba-mais">
+                        saiba mais
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="box-decoration">
+        <img src="../assets/imagens/icons-decoration/faixa-decoration-panela.svg" alt="Gravura de uma panela com detalhes de pano de prato ao redor.">
+    </div>
+    <section class="demais-estabelecimentos">
+        <a href="../index.html#restaurantes">
+            <button  class="button-demais-estabelecimentos t-restaurante-button-demais">
+                clique e confira os demais estabelecimentos
+            </button>
+        </a>
+    </section>
+    <footer>
+        <section class="copyright">
+            <p>&copy; 2023 - Departamento de Tecnologia e Inovação | Prefeitura Municipal de Camboriú</p>
+        </section>
+    </footer>
+</body>
+</html>
