@@ -8,7 +8,7 @@
         background-color: var(--color-dark-medium);
     }
     .restaurante-info .bkg-info {
-        background-image: url(../../imagens/background/bkg-mobile-textura-papel.svg);
+        background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -11,7 +11,7 @@
         position: relative;
         padding: 1.5rem 0;
         padding-bottom: 6vw;
-        background-image: url(../../../imagens/background/bkg-mobile-textura-papel.svg);
+        background-image: url(../../../imagens/background/bkg-mobile-textura-papel.png);
         box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
         border-radius: 0 0 13px 13px;
     }

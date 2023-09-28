@@ -2,7 +2,7 @@
     background-color: var(--color-dark-medium);
 }
 .restaurante-prato .bkg-prato-participante {
-    background-image: url(../../imagens/background/bkg-mobile-textura-papel.svg);
+    background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
     border-radius: 25px 25px 0 0;
 }
 .restaurante-prato .content {
