@@ -9,11 +9,6 @@
 }
 
 @media screen and (max-width: 730px){
-    header {
-        width: 100%;
-        overflow: hidden;
-        background-color: var(--color-light);
-    }
     .nav-bar {
         width: 100vw;
         padding: 1.5rem 10vw;
@@ -64,11 +59,11 @@
         display: block;
     }
     #logo-degusta .logoMobile {
+        display: block;
         font-family: "Nobel Book";
         font-size: 16px;
         color: var(--color-dark);
         text-align: center;
         width: 128px;
     }
-
 }

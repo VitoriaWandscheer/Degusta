@@ -1,12 +1,22 @@
 header {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-light);
+}
+#logo-degusta .logoMobile {
     display: none;
 }
+#logo-degusta .logoDesktop {
+    display: block;
+    width: 270px;
+}
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 730px){
     header {
         display: block;
-        width: 100%;
-        overflow: hidden;
-        background-color: var(--color-light);
+    }
+    #logo-degusta .logoDesktop {
+        display: none;
     }
 }
