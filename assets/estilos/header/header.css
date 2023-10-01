@@ -9,7 +9,7 @@ header {
 }
 #logo-degusta .logoDesktop {
     display: block;
-    width: 270px;
+    width: 200px;
 }
 
 @media screen and (max-width: 730px){
