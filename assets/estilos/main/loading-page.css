@@ -35,7 +35,9 @@
 .loading .logoDegusta {
     width: 100px;
 }
-
+.loading {
+    display: none;
+}
 @media screen and (max-width: 730px){
     .loading {
         display: none;

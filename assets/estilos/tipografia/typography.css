@@ -20,6 +20,14 @@ a {
     color: var(--color-dark-medium);
     font-size: 0.9rem;
 }
+.nav-link {
+    font-family: "Nobel Bold";
+    color: var(--color-dark-medium);
+}
+.nav-link:hover {
+    font-family: "Nobel Bold";
+    color: var(--color-first);
+}
 .t-titulo-prato {
     font-family: "Nobel Bold";
     font-size: 24px;
