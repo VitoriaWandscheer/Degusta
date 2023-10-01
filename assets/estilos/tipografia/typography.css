@@ -39,8 +39,14 @@ a {
 .t-texto {
     font-family: "Nobel Regular";
     font-style: italic;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 130%;
+}
+.main-sobre .t-texto {
+    font-family: "Nobel Book";
+    color: var(--color-light);
+    text-align: center;
+    padding: 2rem;
 }
 .t-text-button, .t-qtd-pessoas {
     font-family: "Nobel Book";
@@ -64,7 +70,7 @@ a {
 }
 .t-titulo-secao {
     font-family: "Damion";
-    font-size: 32px;
+    font-size: 40px;
     color: var(--color-dark-medium);
     text-align: center;
     margin-bottom: 20px;
@@ -124,4 +130,13 @@ a {
     line-height: 115%;
     color: var(--color-dark-medium);
     margin-top: 16px;
+}
+
+@media screen and (max-width: 730px){
+    .main-sobre .t-texto {
+        font-size: 16px;
+    }
+    .t-titulo-secao {
+        font-size: 32px;
+    }
 }
