@@ -1,46 +1,55 @@
 .restaurante-endereco {
-    display: none;
+    display: flex;
+    background-color: var(--color-dark);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 60vw;
+}
+.restaurante-endereco .wrap-map {
+    position: relative;
+    width: 40vw;
+    height: 20vw;
+    border-radius: 13px;
+}
+.restaurante-endereco .wrap-map .map {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 13px;
+}
+.restaurante-endereco .wrap-address-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-light);
+    border-radius: 10px;
+    width: 40vw;
+    height: 38px;
+}
+.restaurante-endereco .icon-map {
+    width: 15px;
+    margin-right: 13px;
+}
+.restaurante-endereco .wrap-info {
+    padding: 4vw;
 }
 
 @media screen and (max-width: 730px){
     .restaurante-endereco {
-        display: flex;
         background-color: var(--color-dark-medium);
-        align-items: center;
+        width: 100vw;
         padding: 65px 0;
+        align-items: center;
         gap: 40px;
     }
     .restaurante-endereco .wrap-map{
-        position: relative;
         width: 80vw;
         height: 40vw;
-        border-radius: 13px;
-    }
-    .restaurante-endereco .wrap-map .map {
-        width: 100%;
-        height: 100%;
-        border: 0;
-        border-radius: 13px;
     }
     .restaurante-endereco .wrap-address-text{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--color-light);
-        border-radius: 10px;
         width: 80vw;
         height: 38px;
-    }
-    .restaurante-endereco .icon-map {
-        width: 15px;
-        margin-right: 13px;
-    }
-    .restaurante-endereco{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: stretch;
-    }
-    .restaurante-endereco .wrap-info{
-        padding: 4vw;
     }
 }

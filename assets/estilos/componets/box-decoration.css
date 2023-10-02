@@ -12,4 +12,7 @@
         background-color: var(--color-dark-medium);
         height: 90px;
     }
+    .box-decoration.-var-desktop {
+        display: none;
+    }
 }

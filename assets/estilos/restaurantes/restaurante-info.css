@@ -1,29 +1,48 @@
+.wrap-infos {
+    display: flex;
+    background-color: var(--color-dark);
+    padding: 60px 0;
+}
 .restaurante-info {
-    display: none;
+    display: block;
+    background-color: var(--color-dark-medium);
+    width: fit-content;
+}
+.restaurante-info .bkg-info {
+    background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 450px;
+    padding: 0px 15px 0 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+    border-radius: 0 25px 25px 0;
+}
+.restaurante-info .restaurante-logo {
+    width: 180px;
+}
+.restaurante-info .restaurante-detalhes {
+    text-align: center;
+}
+.restaurante-info .t-restaurante-titulo-ctt {
+    margin-top: 12px;
 }
 
 @media screen and (max-width: 730px){
-    .restaurante-info {
+    .wrap-infos {
+        background-color: transparent;
         display: block;
-        background-color: var(--color-dark-medium);
+        padding: 0;
+    }
+    .restaurante-info {
+        width: 100%;
     }
     .restaurante-info .bkg-info {
-        background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 450px;
-        padding: 15px 15px 40px 15px;
-        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+        width: 100vw;
         border-radius: 0 0 25px 25px;
-    }
-    .restaurante-info .restaurante-logo {
-        width: 180px;
-    }
-    .restaurante-info .restaurante-detalhes {
-        text-align: center;
-    }
-    .restaurante-info .t-restaurante-titulo-ctt {
-        margin-top: 12px;
+        padding: 15px 15px 40px 15px;
+        margin-top: 0;
     }
 }
