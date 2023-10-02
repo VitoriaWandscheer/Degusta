@@ -1,98 +1,106 @@
 .main-pratos {
-    display: none;
+    display: block;
+    position: relative;
+    padding: 3vw 10vw 6vw 10vw;
+    background-color: var(--color-light);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
+}
+.section-decoration {
+    display: flex;
+    position: absolute;
+    flex-shrink: 100;
+    top: 0;
+}
+.section-decoration.var-left{
+    left: 0;
+}
+.section-decoration.var-right{
+    top: 1rem;
+    right: 0;
+}
+.main-pratos .t-titulo-secao {
+    margin-bottom: 50px;
+}
+
+/* Carousel */
+.slide-wrapper {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+.slide-list {
+    display: flex;
+}
+.slide-item {
+    flex-shrink: 0;
+    padding: 0 2.5vw;
+    width: 410px;
+}
+.wrapper-cards {
+    display: flex;
+    flex-direction: column;
+}
+.wrap-navigation{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.slide-nav-button {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+}
+.slide-nav-previous {
+    background-image: url(../../../imagens/icons-navigation/arrowRight.svg);
+}
+.slide-nav-previous:hover {
+    transform: scale(1.2);
+}
+.slide-nav-next {
+    background-image: url(../../../imagens/icons-navigation/arrowLeft.svg);
+}
+.slide-nav-next:hover {
+    transform: scale(1.2);
+}
+.slide-controls {
+    display: flex;
+    align-items: center;
+    margin: 0px 3rem;
+}
+.slide-control-button {
+    cursor: pointer;
+    background-image: url(../../../imagens/icons-navigation/circle.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1rem;
+    height: 1rem;
+    margin: 0px 0.3rem;
+}
+.slide-control-button.active {
+    background-image: url(../../../imagens/icons-navigation/active-circle.svg);
 }
 
 @media screen and (max-width: 730px){
     .main-pratos {
-        display: block;
-        position: relative;
         padding: 3vw 3vw 6vw 3vw;
-        background-color: var(--color-light);
-        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
-    }
-    .section-decoration {
-        display: flex;
-        position: absolute;
-        flex-shrink: 100;
-        top: 0;
-    }
-    .section-decoration.var-left{
-        left: 0;
-    }
-    .section-decoration.var-right{
-        top: 1rem;
-        right: 0;
     }
     .main-pratos .t-titulo-secao {
         text-align: initial;
         margin: 20px 0 50px 96px;
     }
     /* Carousel */
-    .slide-wrapper {
-        position: relative;
-        z-index: 2;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        overflow: hidden;
-        width: 100%;
-    }
-    .slide-list {
-        display: flex;
-    }
-    .slide-item {
-        flex-shrink: 0;
-        padding: 0 2.5vw;
-        width: 410px;
-    }
-    .wrapper-cards {
-        display: flex;
-        flex-direction: column;
-    }
     .wrap-navigation{
-        display: flex;
-        width: 94vw;
-        justify-content: center;
+        margin-top: 0;
     }
-    .slide-nav-button {
-        cursor: pointer;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: transparent;
-        width: 2rem;
-        height: 2rem;
-    }
-    .slide-nav-previous {
-        background-image: url(../../../imagens/icons-navigation/arrowRight.svg);
-    }
-    .slide-nav-previous:hover {
-        transform: scale(1.2);
-    }
-    .slide-nav-next {
-        background-image: url(../../../imagens/icons-navigation/arrowLeft.svg);
-    }
-    .slide-nav-next:hover {
-        transform: scale(1.2);
-    }
-    .slide-controls {
-        display: flex;
-        align-items: center;
-        margin: 0px 3rem;
-    }
-    .slide-control-button {
-        cursor: pointer;
-        background-image: url(../../../imagens/icons-navigation/circle.svg);
-        background-color: transparent;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 1rem;
-        height: 1rem;
-        margin: 0px 0.3rem;
-    }
-    .slide-control-button.active {
-        background-image: url(../../../imagens/icons-navigation/active-circle.svg);
-    }
-    /*mobile*/
     .slide-controls {
         margin: 0px 1rem;
     }
