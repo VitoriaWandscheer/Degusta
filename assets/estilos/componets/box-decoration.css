@@ -6,6 +6,9 @@
     align-items: center;
     overflow: hidden;
 }
+.box-decoration.box-decoration.-var-desktop {
+    background-color: var(--color-light);
+}
 
 @media screen and (max-width: 730px) {
     .box-decoration {
