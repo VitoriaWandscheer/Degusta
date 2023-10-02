@@ -90,7 +90,7 @@ a {
 }
 .t-arroba-instagram, .t-detail {
     font-family: "Nobel Book";
-    font-size: 16px;
+    font-size: 20px;
 }
 .t-card-rest-prato-participante {
     font-family: "Damion";
@@ -138,5 +138,9 @@ a {
     }
     .t-titulo-secao {
         font-size: 32px;
+    }
+    .t-arroba-instagram, .t-detail {
+        font-family: "Nobel Book";
+        font-size: 16px;
     }
 }

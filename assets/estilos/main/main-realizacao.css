@@ -1,57 +1,90 @@
 .main-realizacao {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark);
+    width: 100%;
+    overflow: hidden;
 }
+
+/**
+* CONTATO
+*/
+.main-realizacao .wrap-ctt-degusta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    gap: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+.main-realizacao .wrap-ctt-degusta .logo-degusta-footer {
+    width: 200px;
+}
+.main-realizacao .wrap-ctt-degusta .wrap-instagram {
+    display: flex;
+    align-items: center;
+}
+.main-realizacao .wrap-ctt-degusta .wrap-instagram .logo-instagram {
+    width: 70px;
+}
+.main-realizacao .wrap-ctt-degusta .wrap-instagram .t-arroba-instagram {
+    color: var(--color-light);
+    line-height: 20px;
+    margin-left: 25px;
+}
+
+/**
+* REALIZAÇÃO e APOIO
+*/
+.main-realizacao .wrap-realizacao-apoio {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.png);
+    border-radius: 13px 13px 0 0;
+    padding: 70px 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.main-realizacao .wrap-realizacao-apoio ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.realizador, .apoiador {
+    margin-bottom: 3px;
+}
+.wrap-realizacao-apoio .logo-realizacao-apoio {
+    width: 85px;
+}
+
 @media screen and (max-width: 730px) {
-    .main-realizacao {
-        display: flex;
-        flex-direction: column;
-        background-color: var(--color-dark-medium);
-        width: 100%;
-        overflow: hidden;
+    .main-realizacao .box-decoration {
+        display: none;
     }
-    .main-realizacao .wrap-realizacao-apoio {
-        background-image: url(/assets/imagens/background/bkg-mobile-textura-papel.png);
-        border-radius: 13px 13px 0 0;
-        padding: 40px 10px;
-        width: 100%;
-        overflow: hidden;
+    .main-realizacao {
+        background-color: var(--color-dark-medium);
     }
     .main-realizacao .wrap-ctt-degusta {
-        display: flex;
-        justify-content: center;
         padding: 100px 0;
-        width: 100%;
-        overflow: hidden;
-    }
-    .main-realizacao .wrap-ctt-degusta .logo-degusta-footer {
-        width: 200px;
+        gap: 0;
     }
     .main-realizacao .wrap-ctt-degusta .wrap-instagram {
-        display: flex;
         flex-wrap: wrap;
-        width: 150px;
         justify-content: center;
+        width: 150px;
     }
     .main-realizacao .wrap-ctt-degusta .wrap-instagram .logo-instagram {
-        width: 70px;
         margin-bottom: 10px;
     }
     .main-realizacao .wrap-ctt-degusta .wrap-instagram .t-arroba-instagram {
-        color: var(--color-light);
-        line-height: 20px;
+        margin-left: 0px;
     }
-    .main-realizacao .wrap-realizacao-apoio ul {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        list-style: none;
-    }
-    .realizador, .apoiador {
-        margin-bottom: 3px;
-    }
-    .wrap-realizacao-apoio .logo-realizacao-apoio {
-        width: 85px;
+    .main-realizacao .wrap-realizacao-apoio {
+        display: block;
+        padding: 40px 10px;
     }
 }
