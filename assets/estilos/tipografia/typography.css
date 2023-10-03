@@ -48,6 +48,10 @@ a {
     text-align: center;
     padding: 2rem;
 }
+.wrap-info-restaurante .t-texto {
+    font-size: 16px;
+    color: var(--color-dark-medium);
+}
 .t-text-button, .t-qtd-pessoas {
     font-family: "Nobel Book";
     font-size: 16px;
