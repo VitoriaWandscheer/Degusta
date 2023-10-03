@@ -21,6 +21,7 @@ a {
     font-size: 0.9rem;
 }
 .nav-link {
+    font-family: "Nobel Bold";
     color: var(--color-dark-medium);
 }
 .nav-link:hover {
@@ -144,5 +145,9 @@ a {
     .t-arroba-instagram, .t-detail {
         font-family: "Nobel Book";
         font-size: 16px;
+    }
+    .nav-link {
+        font-family: "Nobel Regular";
+        color: var(--color-dark-medium);
     }
 }
