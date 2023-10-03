@@ -1,17 +1,37 @@
 .prato-info .card-estabelecimento {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    padding: 15px 30px;
-    background-color: var(--color-light);
-    border-radius: 0px 18px 18px 0px;
-    border-top: 1px solid var(--color-first);
-    border-right: 1px solid var(--color-first);
-    border-bottom: 1px solid var(--color-first);
-    margin-top: 10px;
 }
 .prato-info .logo-estabelecimento {
     width: 100px;
-    margin-bottom: 6px;
+}
+.prato-info .wrap-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+}
+
+@media screen and (max-width: 730px){
+    .prato-info .card-estabelecimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 15px 30px;
+        background-color: var(--color-light);
+        border-radius: 0px 18px 18px 0px;
+        border-top: 1px solid var(--color-first);
+        border-right: 1px solid var(--color-first);
+        border-bottom: 1px solid var(--color-first);
+        margin-top: 10px;
+    }
+    .prato-info .logo-estabelecimento {
+        margin-bottom: 15px;
+    }
+    .prato-info .wrap-desktop {
+        max-width: 100%;
+    }
 }
