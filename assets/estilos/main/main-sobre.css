@@ -3,7 +3,7 @@
     background-color: var(--color-dark);
     padding: 5rem 0;
     margin: 0;
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 .main-sobre .wrap-img {
@@ -11,10 +11,10 @@
     align-items: center;
     justify-content: center;
     padding: 100px 30px;
-    width: 50vw;
+    width: 50%;
 }
 .main-sobre .img-souvenir {
-    width: 35vw;
+    width: 35%;
 }
 .main-sobre .wrap-info{
     display: flex;
@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem 0 0;
-    max-width: 45vw;
+    max-width: 45%;
 }
 .main-sobre .t-titulo-secao {
     background-image: url(../../imagens/icons-decoration/titulo-papel-rasgado.png);

@@ -38,7 +38,7 @@
 .slide-item {
     flex-shrink: 0;
     padding: 0 2.5vw;
-    width: 410px;
+    width: 480px;
 }
 .wrapper-cards {
     display: flex;
