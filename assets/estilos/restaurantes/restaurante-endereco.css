@@ -5,11 +5,11 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 60vw;
+    width: 40vw;
 }
 .restaurante-endereco .wrap-map {
     position: relative;
-    width: 40vw;
+    width: 35vw;
     height: 20vw;
     border-radius: 13px;
 }
@@ -25,7 +25,7 @@
     justify-content: center;
     background-color: var(--color-light);
     border-radius: 10px;
-    width: 40vw;
+    width: 35vw;
     height: 38px;
 }
 .restaurante-endereco .icon-map {

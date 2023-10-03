@@ -2,11 +2,13 @@
     display: flex;
     background-color: var(--color-dark);
     padding: 60px 0;
+    justify-content: space-evenly;
 }
 .restaurante-info {
     display: block;
     background-color: var(--color-dark-medium);
     width: fit-content;
+    margin: 0 5vw;
 }
 .restaurante-info .bkg-info {
     background-image: url(../../imagens/background/bkg-mobile-textura-papel.png);
@@ -14,11 +16,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+    width: 30vw;
     height: 450px;
     padding: 0px 15px 0 15px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30) inset;
-    border-radius: 0 25px 25px 0;
+    border-radius: 25px;
 }
 .restaurante-info .restaurante-logo {
     width: 180px;
@@ -38,6 +40,7 @@
     }
     .restaurante-info {
         width: 100%;
+        margin: 0;
     }
     .restaurante-info .bkg-info {
         width: 100vw;
