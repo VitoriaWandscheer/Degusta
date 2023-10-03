@@ -6,6 +6,7 @@
 }
 .prato-info .logo-estabelecimento {
     width: 100px;
+    margin-right: 15px;
 }
 .prato-info .wrap-desktop {
     display: flex;
@@ -30,6 +31,7 @@
     }
     .prato-info .logo-estabelecimento {
         margin-bottom: 15px;
+        margin-right: 0;
     }
     .prato-info .wrap-desktop {
         max-width: 100%;

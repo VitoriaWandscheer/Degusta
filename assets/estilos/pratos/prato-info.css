@@ -56,8 +56,11 @@
 }
 .prato-info .preco-desktop {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     right: 20%;
     top: 2%;
+    align-items: center;
 }
 .prato-info .wrap-preco{
     display: flex;
