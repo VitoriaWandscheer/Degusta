@@ -18,7 +18,7 @@ O projeto está organizado da seguinte forma:
 
 - assets/: Diretório que contém todos os recursos externos e está subdividida em imagens/, scripts/ e estilos/, que contém, respectivamente: os arquivos de imagens, os arquivos com os códigos que executam ações e os arquivos de estilizações baseadas no CSS.
 
-#### Como Executar
+### Como Executar
 
 Para visualizar este projeto, basta abrir o arquivo index.html no seu navegador da web. A partir daí, você pode navegar para as diferentes páginas de estabelecimentos e menus, explorando todas as informações disponíveis sobre o Circuito Gastronômico Degusta Camboriú.
 
