@@ -1,6 +1,7 @@
 button.saiba-mais {
     font-family: "Nobel Book";
     font-size: 16px;
+    cursor: pointer;
     background-color: var(--color-first-medium);
     width: 103px;
     height: 29px;
